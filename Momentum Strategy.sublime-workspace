@@ -1,0 +1,772 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mome",
+				"momentum_short"
+			],
+			[
+				"back",
+				"backtest_end"
+			],
+			[
+				"backtes",
+				"backtest_start"
+			],
+			[
+				"momen",
+				"momentum_long"
+			],
+			[
+				"long",
+				"long_average"
+			],
+			[
+				"sto",
+				"stock_exchange"
+			],
+			[
+				"backte",
+				"backtest_return"
+			],
+			[
+				"mon",
+				"month_beginnings"
+			],
+			[
+				"tra",
+				"trading_dates"
+			],
+			[
+				"mo",
+				"momentum_long"
+			],
+			[
+				"backt",
+				"backtest_months"
+			],
+			[
+				"rank",
+				"ranking_period"
+			],
+			[
+				"number",
+				"number_of_months_to_back_test"
+			],
+			[
+				"hol",
+				"holding_period"
+			],
+			[
+				"ran",
+				"ranking_period"
+			],
+			[
+				"shor",
+				"short_number"
+			],
+			[
+				"momentu",
+				"momentum_short"
+			],
+			[
+				"month",
+				"monthly_stock_data"
+			],
+			[
+				"is",
+				"isThreeSum"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"a",
+				"a"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "#!/usr/bin/python\n\nfrom momentumPortfolio import MomentumPortfolio as MP\nfrom stats import stats as stats\nimport pandas as pd\nfrom datetime import date\nfrom dateutil.relativedelta import relativedelta\nimport math\nimport sys\n\nclass BackTest(MP):\n\n    def __init__(self, backtest_start = None, backtest_end = None, long_number = 5, short_number = 5, ranking_period = 6, stock_exchange = 'S&P500', holding_period = 1):\n        MP.__init__(self, long_number, short_number, ranking_period, stock_exchange, date.today())\n        self.holding_period = holding_period\n        self.backtest_end = backtest_end if backtest_end != None else date.today() + relativedelta(months = -holding_period)\n        self.backtest_start = backtest_start if backtest_start != None else self.backtest_end + relativedelta(months = -12)\n        self.backtest_return = pd.DataFrame(columns=['Long', 'Short', 'Average', 'SPY'])\n\n        self.get_first_trading_dates_of_month()\n\n    # run this method to get backtest result\n    def backtest(self, *args):\n        self.to_file()      # write results to .txt file\n        if len(args) == 0:\n            rdelta = relativedelta(self.backtest_end, self.backtest_start)\n            months = rdelta.years * 12 + rdelta.months\n\n            for i in range(months + 1):\n                self.today = self.backtest_start + relativedelta(months = i)\n                print '{}-{m:02d}'.format(self.today.year, m = self.today.month)\n                self.update(self.today)\n                print '\\nMonmentum portfolio and their past performance:'\n                print 'Long:' \n                print self.momentum_long\n                print '\\nShort:' \n                print self.momentum_short\n                self.get_return()\n            self.backtest_return = self.backtest_return[['Long', 'Short', 'Average', 'SPY']]\n            print self.backtest_return, '\\n'\n            self.to_csv()\n            stats(self.backtest_return['Long'], self.backtest_return['SPY'])\n        else:\n            self.backtest_start = args[0]\n            self.backtest_end = args[1]\n            self.backtest()\n\n    def get_return(self):\n        today = self.today\n        future = today + relativedelta(months = self.holding_period)\n        buy_date = self.month_beginnings['{}-{}'.format(today.year, today.month)]\n        sell_date = self.month_beginnings['{}-{}'.format(future.year, future.month)]\n\n        long_returns = pd.Series()\n        for stock in self.momentum_long.index:\n            start_price = self.stock_data.loc[buy_date, stock]\n            end_price = self.stock_data.loc[sell_date, stock]\n            stock_return = (end_price - start_price) / start_price\n            long_returns[stock] = stock_return / self.holding_period if not math.isnan(stock_return) else -1 / float(self.holding_period)\n        long_average = long_returns.mean()\n        long_returns['Average'] = long_average\n\n        short_returns = pd.Series()\n        for stock in self.momentum_short.index:\n            start_price = self.stock_data.loc[buy_date, stock]\n            end_price = self.stock_data.loc[sell_date, stock]\n            stock_return = (start_price - end_price) / start_price\n            short_returns[stock] = stock_return / self.holding_period if not math.isnan(stock_return) else -1 / float(self.holding_period)\n        short_average = short_returns.mean()\n        short_returns['Average'] = short_average\n\n        SPY_start_price = self.stock_data.loc[buy_date, 'SPY']\n        SPY_end_price = self.stock_data.loc[sell_date, 'SPY']\n        SPY_return = (SPY_end_price - SPY_start_price) / (self.holding_period *SPY_start_price)\n\n        average = (long_average + short_average) / 2\n        self.backtest_return = self.backtest_return.append(pd.DataFrame({'Long': long_average, 'Short': short_average, 'Average': average, 'SPY':SPY_return}, index = ['{}-{m:02d}'.format(self.today.year, m = self.today.month)]))\n\n        print '\\nPortfolio Returns:'\n        print 'Long:'\n        print long_returns\n        print '\\nShort:' \n        print short_returns\n        print\n\n\n    def get_first_trading_dates_of_month(self):\n    # Get first trading date of each month\n        self.month_beginnings = pd.Series()\n        trading_dates = self.trading_dates\n        prev_month = 0\n        for dates in trading_dates:\n            if dates.month == prev_month:\n                continue\n            else:\n                self.month_beginnings = self.month_beginnings.append(pd.Series(dates, index = ['{}-{}'.format(dates.year, dates.month)]))\n                prev_month = dates.month\n\n    def to_csv(self):\n        start = self.backtest_start\n        end = self.backtest_end\n        fileName = '{}_{}.{}-{}.{}_{}_{}_{}_returns'.format(self.stock_exchange, start.year, start.month, end.year, end.month, self.long_number, self.ranking_period, self.holding_period)\n        self.backtest_return.to_csv('../{}.csv'.format(fileName))\n\n    def to_file(self):\n        start = self.backtest_start\n        end = self.backtest_end\n        fileName = '{}_{}.{}-{}.{}_{}_{}_{}'.format(self.stock_exchange, start.year, start.month, end.year, end.month, self.long_number, self.ranking_period, self.holding_period)\n        f = open('../{}.txt'.format(fileName), 'w')\n        sys.stdout = Tee(sys.stdout, f)\n\n# Enable writing to files while displaying in console\nclass Tee(object):\n    def __init__(self, *files):\n        self.files = files\n    def write(self, obj):\n        for f in self.files:\n            f.write(obj)\n\ndef main():\n    test = BackTest()\n    test.backtest(date(2001, 1, 1), date(2015, 5, 1))\nif __name__ == '__main__':\n    main()\n",
+			"file": "codes/backTest.py",
+			"file_size": 5593,
+			"file_write_time": 130796010510000000,
+			"settings":
+			{
+				"buffer_size": 5611,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "codes/getHistoryData.py",
+			"settings":
+			{
+				"buffer_size": 1268,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "codes/momentumPortfolio.py",
+			"settings":
+			{
+				"buffer_size": 4395,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "codes/stats.py",
+			"settings":
+			{
+				"buffer_size": 940,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/Python3.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python3.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/User/Python3.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 71.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"run",
+				"Build With: C++ Single File - Run"
+			],
+			[
+				"package r",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"packager",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"ever",
+				"Send to Evernote"
+			],
+			[
+				"rea",
+				"ReadmePlease"
+			],
+			[
+				"set syntax: la",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"set",
+				"Set Syntax: Python"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"line",
+				"Line Ending: Unix"
+			],
+			[
+				"package re",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"previe",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"c",
+				"Set Syntax: C++"
+			],
+			[
+				"ob",
+				"Set Syntax: Objective-C++"
+			],
+			[
+				"c++",
+				"Set Syntax: Objective-C++"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"mar",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"pre",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"prev",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"previer",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"previw",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"preveiw",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"send",
+				"Send to Evernote"
+			],
+			[
+				"ht",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"evernote",
+				"Send to Evernote"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 483.0,
+		"history":
+		[
+			"main: \"Run\"",
+			"main: Run",
+			"clang++ main.cpp",
+			"main: run",
+			"import urllib2,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ChengHao/Documents/Programming/Python2/Momentum Strategy",
+		"/Users/ChengHao/Documents/Programming/Python2/Momentum Strategy/codes"
+	],
+	"file_history":
+	[
+		"/Users/ChengHao/Documents/Programming/Python2/Momentum Strategy/S&P500_2014.5-2015.5_5_6_1.txt",
+		"/Users/ChengHao/Documents/Programming/Python2/Momentum Strategy/S&P500_2015-06-24_3_pick.txt",
+		"/Users/ChengHao/Documents/Programming/Python2/Momentum Strategy/codes/backTest.py",
+		"/Users/ChengHao/Documents/Programming/Python2/Momentum Portfolio/codes/backtestnew copy.py",
+		"/Users/ChengHao/Documents/Programming/Python2/Momentum Portfolio/codes/backtestnew.py",
+		"/Users/ChengHao/Documents/Programming/Python2/Momentum Portfolio/Momentum Portfolio.sublime-project",
+		"/Users/ChengHao/Documents/Programming/Python2/Momentum Portfolio/codes/momentumPortfolio.py",
+		"/Users/ChengHao/Documents/Programming/Python2/Momentum Portfolio/codes/get_history_data.py",
+		"/Users/ChengHao/Documents/Git/test Momentum/try.py",
+		"/Users/ChengHao/Documents/Git/test Momentum/test.py",
+		"/Users/ChengHao/Documents/Git/test Momentum/delete.py",
+		"/Users/ChengHao/Documents/Programming/Python2/Momentum Portfolio/codes/delete.py",
+		"/Users/ChengHao/Documents/Programming/Python2/Momentum Portfolio/codes/test.py",
+		"/Users/ChengHao/Documents/Programming/Python2/Momentum Portfolio/codes/try.py",
+		"/Users/ChengHao/Documents/Programming/Python2/Momentum Portfolio/previous versions/picker.py",
+		"/Users/ChengHao/Documents/Programming/Python2/Momentum Portfolio/codes/backtest.py",
+		"/Users/ChengHao/Documents/Programming/Python2/Momentum Portfolio/codes/picker.py",
+		"/Users/ChengHao/Documents/Programming/Python2/Momentum Portfolio/try.py",
+		"/Users/ChengHao/Documents/Programming/C++/LeetCode/LeetCode/main",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/C++/C++.sublime-settings",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/C++/C++ Single File.sublime-build",
+		"/Users/ChengHao/Documents/Programming/C++/CareerUp/1.2/1.2/PushBackNew.cpp",
+		"/Users/ChengHao/Documents/Programming/C++/LeetCode/LeetCode/main.cpp",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/ChengHao/Documents/Programming/Python2/Ginkgo 2nd Code Test/appdx.txt",
+		"/Users/ChengHao/Documents/Programming/Python2/Google Challenge/level 4 problem 2.txt",
+		"/Users/ChengHao/Documents/Programming/Java/Google Challenge Java/src/test.java",
+		"/Users/ChengHao/Desktop/test.py",
+		"/Users/ChengHao/Documents/Programming/Python2/Google Challenge/google challange.py",
+		"/Users/ChengHao/Documents/Programming/C++/LeetCode/LeetCode/binary search.cpp",
+		"/Users/ChengHao/Documents/Programming/Python2/Google Challenge/level 4 problem 1.txt",
+		"/Users/ChengHao/Documents/Programming/Python2/Google Challenge/level3 problem1.py",
+		"/Users/ChengHao/Documents/Programming/Python2/Google Challenge/level3 problem1.txt",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/User/LaTeX.sublime-settings",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/DownloadedThemes/MonokaiGray.tmTheme",
+		"/Users/ChengHao/Documents/Programming/Python2/Google Challenge/level 3 problem 3.py",
+		"/Users/ChengHao/Documents/Programming/Python2/Google Challenge/level 3 problem 2.py",
+		"/Users/ChengHao/Documents/Programming/Python2/Google Challenge/level 3 problem 1.py",
+		"/Users/ChengHao/Documents/Programming/C++/CareerUp/1.2/1.2/main.cpp",
+		"/Users/ChengHao/Documents/Programming/Python3/test/python3test.py",
+		"/Users/ChengHao/Documents/Programming/test/python3test.py",
+		"/Users/ChengHao/Documents/Programming/Programming.sublime-project",
+		"/Users/ChengHao/Documents/Programming/Programmings.sublime-workspace",
+		"/Users/ChengHao/Documents/Programming/Python2/Ginkgo 2nd Code Test/simulation.py",
+		"/Users/ChengHao/Documents/sigmamodel/sigmamodel calculation.tex",
+		"/Users/ChengHao/Desktop/python3test.py",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/User/Python3.sublime-build",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/Python/Python.sublime-build",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-build",
+		"/Users/ChengHao/Documents/Interview/Interviews/ginkgo/2nd code test/simulation/simulation.py",
+		"/Users/ChengHao/Documents/Interview/Interviews/ginkgo/2nd code test/code/code/main.cpp",
+		"/Users/ChengHao/Documents/Interview/Interviews/kcg/screening test/code",
+		"/Users/ChengHao/Documents/Programming/C++/Gingkgo 1st Code Test/code/output2.txt",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/LineEndings/LineEndings.sublime-settings",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/SublimeEvernote/README.md",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/User/SublimeEvernote.sublime-settings",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/User/LineEndings.sublime-settings",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/C#/README.markdown",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/C++/C++.tmLanguage",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/DownloadedThemes/MonokaiGray Night.tmTheme",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/DownloadedThemes/Monokai Comment.tmTheme",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/Theme - Default/Default.sublime-theme",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/User/C++.sublime-settings",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/DownloadedThemes/Monokai Dark.tmTheme",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/ChengHao/Documents/Programming/Java/Jiaojiao/src/niub.java",
+		"/Users/ChengHao/Desktop/Lynda/Ex_Files_UaR_SublimeTxt_2/Exercise Files/roux_website/index.htm",
+		"/Users/ChengHao/Desktop/Lynda/Ex_Files_UaR_SublimeTxt_2/Exercise Files/roux_website/_scripts/respond.min.js",
+		"/Users/ChengHao/Desktop/Lynda/Ex_Files_UaR_SublimeTxt_2/Exercise Files/roux_website/404.shtml",
+		"/Users/ChengHao/Documents/Interview/Interviews/kcg/screening test/code/kcg/main.cpp",
+		"/Users/ChengHao/Desktop/Lynda/Ex_Files_UaR_SublimeTxt_2/Exercise Files/roux_website/error.htm",
+		"/Users/ChengHao/Desktop/Lynda/Ex_Files_Python_3_EssT/Exercise Files/19 Projects/testimonials/index.html",
+		"/Users/ChengHao/Desktop/Lynda/Ex_Files_UaR_SublimeTxt_2/Exercise Files/roux_website/spotlight.htm",
+		"/Users/ChengHao/Documents/Python-workspace/momentum portfolio/returns_stats.py",
+		"/Users/ChengHao/Documents/Interview/Interviews/ginkgo/code test/Ginkgo Code Test/main.cpp",
+		"/Users/ChengHao/Documents/Interview/Interviews/ginkgo/code test/Ginkgo Code Test/orderbook.cpp",
+		"/Users/ChengHao/Downloads/helloWorld.cpp",
+		"/Users/ChengHao/Documents/C++/CareerUp/1.2/1.2/main.cpp",
+		"/Users/ChengHao/Documents/C++/learning/learning/main.cpp",
+		"/Users/ChengHao/Documents/Python-workspace/momentum portfolio/picker.py",
+		"/Users/ChengHao/Desktop/Ex_Files_Python_3_EssT/Exercise Files/06 Conditionals/conditionals.py",
+		"/Users/ChengHao/Documents/Python-workspace/momentum portfolio/test.py",
+		"/Users/ChengHao/Documents/C++/CareerUp/1.3/1.3/main.cpp",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/private/var/folders/4s/dp4rsx9j54n6l2hb8vw6fj2h0000gn/T/fz3temp-1/mat127s14.html",
+		"/Users/ChengHao/Desktop/mat127s14.html",
+		"/private/var/folders/4s/dp4rsx9j54n6l2hb8vw6fj2h0000gn/T/fz3temp-1/mat126s14.html",
+		"/private/var/folders/4s/dp4rsx9j54n6l2hb8vw6fj2h0000gn/T/fz3temp-1/index.html",
+		"/Users/ChengHao/Desktop/untitled",
+		"/private/var/folders/4s/dp4rsx9j54n6l2hb8vw6fj2h0000gn/T/fz3temp-1/mat126s13.html",
+		"/Users/ChengHao/Downloads/metric.nb",
+		"/Users/ChengHao/Desktop/changeinputsourcesogou",
+		"/Users/ChengHao/Documents/Markdown/sublime text test",
+		"/Users/ChengHao/Library/Application Support/Sublime Text 3/Packages/User/multimarkdown.sublime-build",
+		"/Users/ChengHao/Documents/Multimarkdown/multimarkdown test"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"self.mp",
+			"backtest_months",
+			"holding_period",
+			"long",
+			"text",
+			"[:]",
+			"open",
+			"120",
+			"icon",
+			"background color",
+			"color",
+			"background",
+			"def",
+			"comment",
+			"full path",
+			"head",
+			"abcdefg",
+			"revword4",
+			"attribute"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"self",
+			"short",
+			"rev_word4",
+			"Nathaniel"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "codes/backTest.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "codes/getHistoryData.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17,
+								17
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "codes/momentumPortfolio.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17,
+								17
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "codes/stats.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 940,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 388.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "Momentum Strategy.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"leetcode",
+				"C++/LeetCode/LeetCode/preorder traversal.cpp"
+			],
+			[
+				"leetc",
+				"C++/LeetCode/LeetCode/main"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "gin",
+		"selected_items":
+		[
+			[
+				"gin",
+				"~/Documents/Programming/programmings.sublime-project"
+			],
+			[
+				"",
+				"~/Documents/Programming/programmings.sublime-project"
+			],
+			[
+				"mo",
+				"~/Documents/Programming/Python2/Momentum Portfolio/Momentum Portfolio.sublime-project"
+			],
+			[
+				"moen",
+				"~/Documents/Programming/Python2/Momentum Portfolio/Momentum Portfolio.sublime-project"
+			],
+			[
+				"goo",
+				"~/Documents/Programming/Python2/Google Challenge/Google Challange.sublime-project"
+			],
+			[
+				"prog",
+				"~/Documents/Programming/programmings.sublime-project"
+			],
+			[
+				"pro",
+				"~/Documents/Programming/programmings.sublime-project"
+			],
+			[
+				"mom",
+				"~/Documents/Programming/Python2/Momentum Portfolio/Momentum Portfolio.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 337.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

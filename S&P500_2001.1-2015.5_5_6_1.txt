@@ -1,0 +1,6659 @@
+2001-01
+
+Monmentum portfolio and their past performance:
+Long:
+GMCR    0.348485
+DVA     0.170243
+HUM     0.165889
+PHM     0.150685
+PPL     0.144737
+dtype: float64
+
+Short:
+OI     -0.119371
+AAPL   -0.120166
+AKAM   -0.121731
+YHOO   -0.123319
+PCLN   -0.158265
+dtype: float64
+
+Portfolio Returns:
+Long:
+GMCR      -0.014745
+DVA        0.211517
+HUM       -0.197322
+PHM       -0.119875
+PPL       -0.046465
+Average   -0.033378
+dtype: float64
+
+Short:
+OI        -0.408696
+AAPL      -0.420171
+AKAM      -0.398734
+YHOO      -0.279379
+PCLN      -1.022222
+Average   -0.505840
+dtype: float64
+
+2001-02
+
+Monmentum portfolio and their past performance:
+Long:
+DVA     0.265185
+GMCR    0.250000
+HUM     0.113351
+DNR     0.112245
+TJX     0.112145
+dtype: float64
+
+Short:
+RHT    -0.106498
+AAPL   -0.106936
+FFIV   -0.121692
+YHOO   -0.124327
+PCLN   -0.150662
+dtype: float64
+
+Portfolio Returns:
+Long:
+DVA       -0.091471
+GMCR       0.059874
+HUM        0.146789
+DNR        0.010103
+TJX       -0.088636
+Average    0.007332
+dtype: float64
+
+Short:
+RHT        0.300699
+AAPL       0.112428
+FFIV       0.504000
+YHOO       0.322357
+PCLN       0.098901
+Average    0.267677
+dtype: float64
+
+2001-03
+
+Monmentum portfolio and their past performance:
+Long:
+GMCR    0.256219
+DVA     0.235119
+ADM     0.130446
+RAI     0.115942
+VTR     0.115504
+dtype: float64
+
+Short:
+VRSN   -0.113205
+NTAP   -0.114493
+YHOO   -0.120940
+FFIV   -0.124810
+PCLN   -0.147098
+dtype: float64
+
+Portfolio Returns:
+Long:
+GMCR      -0.231635
+DVA       -0.052602
+ADM       -0.132844
+RAI       -0.017060
+VTR        0.029725
+Average   -0.080883
+dtype: float64
+
+Short:
+VRSN       0.337963
+NTAP       0.506073
+YHOO       0.427110
+FFIV       0.310483
+PCLN      -0.195122
+Average    0.277301
+dtype: float64
+
+2001-04
+
+Monmentum portfolio and their past performance:
+Long:
+VTR    0.134409
+RAI    0.125360
+CNX    0.119147
+DVA    0.103617
+KSU    0.099959
+dtype: float64
+
+Short:
+ALXN   -0.127316
+AKAM   -0.129892
+FFIV   -0.130279
+NTAP   -0.137192
+BRCM   -0.139569
+dtype: float64
+
+Portfolio Returns:
+Long:
+VTR        0.065067
+RAI        0.090894
+CNX        0.128273
+DVA        0.047762
+KSU       -0.055147
+Average    0.055370
+dtype: float64
+
+Short:
+ALXN      -0.100000
+AKAM      -0.220840
+FFIV      -0.412863
+NTAP      -0.609836
+BRCM      -0.556957
+Average   -0.380099
+dtype: float64
+
+2001-05
+
+Monmentum portfolio and their past performance:
+Long:
+FLIR    0.217262
+CNX     0.176969
+KMX     0.170635
+VTR     0.169094
+FCX     0.144628
+dtype: float64
+
+Short:
+ALXN   -0.125983
+NTAP   -0.130287
+BRCM   -0.131296
+AKAM   -0.134758
+FFIV   -0.135979
+dtype: float64
+
+Portfolio Returns:
+Long:
+FLIR       0.246427
+CNX       -0.190909
+KMX        0.537313
+VTR        0.033334
+FCX        0.106649
+Average    0.146563
+dtype: float64
+
+Short:
+ALXN      -0.135931
+NTAP       0.232994
+BRCM       0.195186
+AKAM      -0.139868
+FFIV      -0.498013
+Average   -0.069126
+dtype: float64
+
+2001-06
+
+Monmentum portfolio and their past performance:
+Long:
+FLIR    0.556818
+KMX     0.387479
+PCLN    0.332388
+NVDA    0.197736
+BBY     0.189619
+dtype: float64
+
+Short:
+BRCM   -0.104115
+NTAP   -0.107596
+AKAM   -0.107780
+GLW    -0.109495
+ALXN   -0.110586
+dtype: float64
+
+Portfolio Returns:
+Long:
+FLIR       0.322063
+KMX        0.042071
+PCLN       0.873346
+NVDA      -0.018926
+BBY        0.240925
+Average    0.291896
+dtype: float64
+
+Short:
+BRCM      -0.270655
+NTAP       0.291556
+AKAM       0.159420
+GLW        0.128631
+ALXN       0.074314
+Average    0.076653
+dtype: float64
+
+2001-07
+
+Monmentum portfolio and their past performance:
+Long:
+FLIR    0.459770
+KMX     0.354520
+PCLN    0.331424
+NVDA    0.164640
+PETM    0.139803
+dtype: float64
+
+Short:
+BRCM   -0.114001
+AKAM   -0.115493
+JNPR   -0.119888
+GLW    -0.120067
+NTAP   -0.124333
+dtype: float64
+
+Portfolio Returns:
+Long:
+FLIR       0.300386
+KMX       -0.002484
+PCLN      -0.039354
+NVDA      -0.031588
+PETM       0.058395
+Average    0.057071
+dtype: float64
+
+Short:
+BRCM      -0.077371
+AKAM       0.079310
+JNPR       0.134131
+GLW        0.048214
+NTAP      -0.140180
+Average    0.008821
+dtype: float64
+
+2001-08
+
+Monmentum portfolio and their past performance:
+Long:
+FLIR    0.543981
+KMX     0.371745
+PCLN    0.354925
+PETM    0.123084
+AZO     0.122354
+dtype: float64
+
+Short:
+GLW    -0.103722
+WAT    -0.104456
+AKAM   -0.106163
+JNPR   -0.114754
+NTAP   -0.117760
+dtype: float64
+
+Portfolio Returns:
+Long:
+FLIR      -0.016333
+KMX       -0.109589
+PCLN      -0.422269
+PETM       0.099310
+AZO        0.010538
+Average   -0.087669
+dtype: float64
+
+Short:
+GLW        0.303940
+WAT       -0.129412
+AKAM       0.500624
+JNPR       0.509455
+NTAP       0.196581
+Average    0.276238
+dtype: float64
+
+2001-09
+
+Monmentum portfolio and their past performance:
+Long:
+FLIR    0.451890
+PCLN    0.342355
+KMX     0.278149
+PETM    0.244526
+FFIV    0.201132
+dtype: float64
+
+Short:
+EMC    -0.084909
+CCI    -0.086905
+NBR    -0.087580
+NOV    -0.091470
+JNPR   -0.103123
+dtype: float64
+
+Portfolio Returns:
+Long:
+FLIR       0.337515
+PCLN      -0.349091
+KMX       -0.167832
+PETM      -0.102886
+FFIV      -0.485471
+Average   -0.153553
+dtype: float64
+
+Short:
+EMC        0.257525
+CCI        0.098477
+NBR        0.170281
+NOV        0.091803
+JNPR       0.311341
+Average    0.185886
+dtype: float64
+
+2001-10
+
+Monmentum portfolio and their past performance:
+Long:
+FLIR    0.355297
+FFIV    0.177890
+PETM    0.132760
+PCG     0.120280
+AZO     0.092308
+dtype: float64
+
+Short:
+NBR    -0.099560
+NOV    -0.099727
+AKAM   -0.103041
+EMC    -0.103781
+JNPR   -0.127038
+dtype: float64
+
+Portfolio Returns:
+Long:
+FLIR       0.148973
+FFIV       1.307163
+PETM       0.100700
+PCG        0.188320
+AZO        0.106435
+Average    0.370318
+dtype: float64
+
+Short:
+NBR       -0.518878
+NOV       -0.308304
+AKAM      -0.196226
+EMC       -0.173874
+JNPR      -1.359526
+Average   -0.511362
+dtype: float64
+
+2001-11
+
+Monmentum portfolio and their past performance:
+Long:
+FLIR    0.279232
+PCG     0.128260
+AZO     0.124222
+TSCO    0.098246
+PETM    0.090563
+dtype: float64
+
+Short:
+GLW    -0.103972
+JNPR   -0.107532
+AKAM   -0.110093
+EMC    -0.113908
+AES    -0.116363
+dtype: float64
+
+Portfolio Returns:
+Long:
+FLIR      -0.068799
+PCG        0.015461
+AZO        0.120372
+TSCO       0.138122
+PETM       0.133418
+Average    0.067715
+dtype: float64
+
+Short:
+GLW       -0.140128
+JNPR      -0.059307
+AKAM      -0.747634
+EMC       -0.240215
+AES       -0.152798
+Average   -0.268016
+dtype: float64
+
+2001-12
+
+Monmentum portfolio and their past performance:
+Long:
+FLIR    0.223242
+TSCO    0.133333
+AZO     0.133057
+PCG     0.091275
+FFIV    0.083807
+dtype: float64
+
+Short:
+CVS    -0.081979
+SNDK   -0.083054
+GPS    -0.090705
+AMT    -0.103519
+AES    -0.105953
+dtype: float64
+
+Portfolio Returns:
+Long:
+FLIR      -0.102533
+TSCO       0.104206
+AZO        0.056285
+PCG        0.057640
+FFIV      -0.038392
+Average    0.015441
+dtype: float64
+
+Short:
+CVS       -0.096703
+SNDK      -0.148826
+GPS       -0.069983
+AMT       -0.234857
+AES       -0.044804
+Average   -0.119035
+dtype: float64
+
+2002-01
+
+Monmentum portfolio and their past performance:
+Long:
+RHT     0.153879
+URBN    0.148019
+NTAP    0.146196
+WDC     0.131607
+ACN     0.118931
+dtype: float64
+
+Short:
+ACT   -0.083146
+GPS   -0.087796
+HAL   -0.091648
+AMT   -0.091927
+AES   -0.100777
+dtype: float64
+
+Portfolio Returns:
+Long:
+RHT        0.181818
+URBN       0.048065
+NTAP      -0.247267
+WDC       -0.068403
+ACN        0.068294
+Average   -0.003498
+dtype: float64
+
+Short:
+ACT        0.047711
+GPS        0.000000
+HAL       -0.132844
+AMT        0.489489
+AES        0.207862
+Average    0.122444
+dtype: float64
+
+2002-02
+
+Monmentum portfolio and their past performance:
+Long:
+RHT     0.200265
+URBN    0.149495
+WDC     0.147343
+OI      0.139535
+ETFC    0.132543
+dtype: float64
+
+Short:
+VRTX   -0.068416
+ACT    -0.081932
+AMT    -0.091475
+AES    -0.092009
+HAL    -0.105177
+dtype: float64
+
+Portfolio Returns:
+Long:
+RHT       -0.230769
+URBN      -0.092499
+WDC        0.075175
+OI         0.175097
+ETFC      -0.149947
+Average   -0.044589
+dtype: float64
+
+Short:
+VRTX      -0.083744
+ACT        0.014895
+AMT       -0.080391
+AES        0.624812
+HAL       -0.225120
+Average    0.050091
+dtype: float64
+
+2002-03
+
+Monmentum portfolio and their past performance:
+Long:
+OI      0.277322
+KMX     0.200000
+WDC     0.197147
+RHT     0.186012
+TSCO    0.158192
+dtype: float64
+
+Short:
+CTXS   -0.064397
+WMB    -0.071972
+ACT    -0.076279
+AMT    -0.106793
+AES    -0.111660
+dtype: float64
+
+Portfolio Returns:
+Long:
+OI         0.198675
+KMX       -0.002258
+WDC       -0.004878
+RHT       -0.107692
+TSCO       0.122254
+Average    0.041220
+dtype: float64
+
+Short:
+CTXS      -0.140328
+WMB       -0.497362
+ACT        0.092440
+AMT        0.036298
+AES       -0.815631
+Average   -0.264917
+dtype: float64
+
+2002-04
+
+Monmentum portfolio and their past performance:
+Long:
+OI      0.426267
+WDC     0.199023
+AMZN    0.167102
+NTAP    0.153372
+COH     0.149660
+dtype: float64
+
+Short:
+JNPR   -0.063215
+VRSN   -0.063312
+ACT    -0.067562
+AES    -0.068931
+AMT    -0.096722
+dtype: float64
+
+Portfolio Returns:
+Long:
+OI        -0.080110
+WDC       -0.006537
+AMZN       0.114189
+NTAP      -0.205140
+COH        0.108695
+Average   -0.013781
+dtype: float64
+
+Short:
+JNPR       0.260015
+VRSN       0.665185
+ACT        0.063991
+AES        0.078366
+AMT       -0.016950
+Average    0.210122
+dtype: float64
+
+2002-05
+
+Monmentum portfolio and their past performance:
+Long:
+OI      0.251676
+TSCO    0.131579
+PETM    0.115351
+COH     0.111891
+AMZN    0.109529
+dtype: float64
+
+Short:
+CCI    -0.072763
+AES    -0.077658
+VRSN   -0.078270
+PKI    -0.081158
+JNPR   -0.088847
+dtype: float64
+
+Portfolio Returns:
+Long:
+OI         0.036637
+TSCO       0.016578
+PETM       0.070065
+COH       -0.098039
+AMZN       0.089145
+Average    0.022877
+dtype: float64
+
+Short:
+CCI        0.359124
+AES        0.295809
+VRSN      -0.025442
+PKI       -0.051697
+JNPR       0.115424
+Average    0.138644
+dtype: float64
+
+2002-06
+
+Monmentum portfolio and their past performance:
+Long:
+OI      0.158748
+TSCO    0.138889
+PETM    0.109624
+AMZN    0.105992
+FTI     0.100798
+dtype: float64
+
+Short:
+AES    -0.090056
+JNPR   -0.094868
+PKI    -0.097699
+AKAM   -0.101670
+VRSN   -0.125390
+dtype: float64
+
+Portfolio Returns:
+Long:
+OI        -0.212051
+TSCO       0.198685
+PETM      -0.103708
+AMZN      -0.245546
+FTI       -0.076329
+Average   -0.087790
+dtype: float64
+
+Short:
+AES        0.215986
+JNPR       0.342957
+PKI        0.211214
+AKAM       0.289340
+VRSN       0.253505
+Average    0.262600
+dtype: float64
+
+2002-07
+
+Monmentum portfolio and their past performance:
+Long:
+TSCO    0.131540
+PETM    0.109474
+FOSL    0.096133
+HAL     0.077002
+OI      0.076854
+dtype: float64
+
+Short:
+WMB    -0.110993
+CVC    -0.113960
+AES    -0.117188
+AKAM   -0.118194
+VRSN   -0.124972
+dtype: float64
+
+Portfolio Returns:
+Long:
+TSCO      -0.095517
+PETM      -0.037914
+FOSL      -0.135569
+HAL       -0.171505
+OI        -0.044118
+Average   -0.096925
+dtype: float64
+
+Short:
+WMB        0.266784
+CVC        0.080136
+AES        0.540131
+AKAM       0.214286
+VRSN       0.112717
+Average    0.242811
+dtype: float64
+
+2002-08
+
+Monmentum portfolio and their past performance:
+Long:
+TSCO    0.101449
+CTSH    0.089655
+DNR     0.068507
+PETM    0.053184
+AET     0.048428
+dtype: float64
+
+Short:
+NVDA   -0.115700
+WMB    -0.121917
+VRSN   -0.125948
+CVC    -0.128596
+PWR    -0.130320
+dtype: float64
+
+Portfolio Returns:
+Long:
+TSCO       0.056725
+CTSH      -0.013870
+DNR        0.084069
+PETM       0.182266
+AET       -0.054060
+Average    0.051026
+dtype: float64
+
+Short:
+NVDA       0.052949
+WMB        0.303553
+VRSN      -0.063518
+CVC       -0.045400
+PWR       -0.239024
+Average    0.001712
+dtype: float64
+
+2002-09
+
+Monmentum portfolio and their past performance:
+Long:
+TSCO    0.073791
+CTSH    0.069697
+MCO     0.041084
+PETM    0.038841
+DNR     0.038462
+dtype: float64
+
+Short:
+VRSN   -0.128389
+CVC    -0.131339
+NVDA   -0.133735
+WMB    -0.142529
+PWR    -0.143446
+dtype: float64
+
+Portfolio Returns:
+Long:
+TSCO      -0.023823
+CTSH      -0.040803
+MCO        0.019572
+PETM       0.089881
+DNR        0.056125
+Average    0.020190
+dtype: float64
+
+Short:
+VRSN       0.203675
+CVC       -0.079811
+NVDA       0.048520
+WMB        0.204864
+PWR        0.157480
+Average    0.106946
+dtype: float64
+
+2002-10
+
+Monmentum portfolio and their past performance:
+Long:
+CTSH    0.065177
+TSCO    0.047930
+PETM    0.043323
+FOSL    0.033797
+BSX     0.031727
+dtype: float64
+
+Short:
+AKAM   -0.123474
+NVDA   -0.125513
+TSO    -0.128032
+PWR    -0.141947
+WMB    -0.146768
+dtype: float64
+
+Portfolio Returns:
+Long:
+CTSH       0.227370
+TSCO       0.267828
+PETM       0.077554
+FOSL       0.119208
+BSX        0.189591
+Average    0.176310
+dtype: float64
+
+Short:
+AKAM      -0.176471
+NVDA      -0.563191
+TSO       -0.231337
+PWR       -0.481308
+WMB        0.091697
+Average   -0.272122
+dtype: float64
+
+2002-11
+
+Monmentum portfolio and their past performance:
+Long:
+BSX     0.067442
+TSCO    0.036657
+PETM    0.035346
+CTSH    0.033965
+INTU    0.030104
+dtype: float64
+
+Short:
+TSO   -0.125228
+AMT   -0.126667
+AES   -0.132006
+PWR   -0.136909
+WMB   -0.149420
+dtype: float64
+
+Portfolio Returns:
+Long:
+BSX        0.114323
+TSCO       0.089251
+PETM      -0.034465
+CTSH       0.077434
+INTU       0.004259
+Average    0.050160
+dtype: float64
+
+Short:
+TSO       -0.260612
+AMT       -1.715227
+AES       -0.272730
+PWR       -0.176656
+WMB       -0.249992
+Average   -0.535043
+dtype: float64
+
+2002-12
+
+Monmentum portfolio and their past performance:
+Long:
+WDC     0.159574
+SNDK    0.148402
+CTSH    0.077889
+CELG    0.070853
+BSX     0.066949
+dtype: float64
+
+Short:
+AES   -0.103436
+GT    -0.103554
+URI   -0.103654
+WMB   -0.109929
+PWR   -0.123241
+dtype: float64
+
+Portfolio Returns:
+Long:
+WDC       -0.228090
+SNDK      -0.212564
+CTSH      -0.010950
+CELG      -0.091739
+BSX        0.004674
+Average   -0.107734
+dtype: float64
+
+Short:
+AES       -0.285715
+GT         0.143903
+URI       -0.209279
+WMB       -0.089350
+PWR       -0.005362
+Average   -0.089161
+dtype: float64
+
+2003-01
+
+Monmentum portfolio and their past performance:
+Long:
+CTXS    0.217972
+CVC     0.151235
+WDC     0.136322
+SNDK    0.103924
+CELG    0.096591
+dtype: float64
+
+Short:
+WMB   -0.070210
+MU    -0.071451
+CI    -0.084750
+GT    -0.094597
+THC   -0.105203
+dtype: float64
+
+Portfolio Returns:
+Long:
+CTXS       0.085385
+CVC       -0.048560
+WDC        0.151383
+SNDK      -0.260668
+CELG       0.007313
+Average   -0.013030
+dtype: float64
+
+Short:
+WMB       -0.067375
+MU         0.160000
+CI         0.002354
+GT         0.263533
+THC       -0.054803
+Average    0.060742
+dtype: float64
+
+2003-02
+
+Monmentum portfolio and their past performance:
+Long:
+SEE     0.241693
+GLW     0.229437
+CVC     0.223118
+AMT     0.220109
+CTXS    0.219774
+dtype: float64
+
+Short:
+GME   -0.078766
+CI    -0.079086
+MU    -0.085206
+GT    -0.091193
+THC   -0.104466
+dtype: float64
+
+Portfolio Returns:
+Long:
+SEE       -0.041622
+GLW        0.243901
+CVC        0.035016
+AMT       -0.022266
+CTXS      -0.149539
+Average    0.013098
+dtype: float64
+
+Short:
+GME       -0.305084
+CI        -0.013208
+MU         0.116667
+GT         0.210832
+THC       -0.013966
+Average   -0.000952
+dtype: float64
+
+2003-03
+
+Monmentum portfolio and their past performance:
+Long:
+GLW     0.259596
+AMT     0.214044
+SEE     0.208769
+CTXS    0.168033
+YHOO    0.150235
+dtype: float64
+
+Short:
+CMS   -0.082479
+MU    -0.086056
+GME   -0.090842
+GT    -0.103745
+THC   -0.106180
+dtype: float64
+
+Portfolio Returns:
+Long:
+GLW        0.149019
+AMT        0.140786
+SEE        0.097649
+CTXS       0.108333
+YHOO       0.144076
+Average    0.127973
+dtype: float64
+
+Short:
+CMS       -0.193024
+MU        -0.082210
+GME       -0.114100
+GT        -0.267158
+THC        0.076033
+Average   -0.116092
+dtype: float64
+
+2003-04
+
+Monmentum portfolio and their past performance:
+Long:
+AMT    0.704861
+GLW    0.433333
+TSO    0.358974
+SEE    0.261047
+WMB    0.246795
+dtype: float64
+
+Short:
+MU    -0.070718
+GT    -0.077127
+FMC   -0.077444
+UNM   -0.085084
+THC   -0.107433
+dtype: float64
+
+Portfolio Returns:
+Long:
+AMT        0.237750
+GLW       -0.071671
+TSO        0.024422
+SEE        0.074849
+WMB        0.357998
+Average    0.124670
+dtype: float64
+
+Short:
+MU        -0.061021
+GT        -0.193423
+FMC       -0.156154
+UNM       -0.190151
+THC        0.122838
+Average   -0.095582
+dtype: float64
+
+2003-05
+
+Monmentum portfolio and their past performance:
+Long:
+AMT     0.294574
+AES     0.272640
+WMB     0.206250
+TSO     0.203226
+NFLX    0.200070
+dtype: float64
+
+Short:
+FMC    -0.065999
+UNM    -0.071525
+MU     -0.071599
+CERN   -0.072157
+REGN   -0.107697
+dtype: float64
+
+Portfolio Returns:
+Long:
+AMT        0.356305
+AES        0.359061
+WMB        0.184096
+TSO       -0.083443
+NFLX       0.035556
+Average    0.170315
+dtype: float64
+
+Short:
+FMC       -0.133440
+UNM       -0.125887
+MU        -0.307512
+CERN      -0.023130
+REGN      -1.353870
+Average   -0.388768
+dtype: float64
+
+2003-06
+
+Monmentum portfolio and their past performance:
+Long:
+WMB     0.357143
+AES     0.219540
+AMT     0.201166
+PCLN    0.194035
+CCI     0.182090
+dtype: float64
+
+Short:
+FMC    -0.046400
+UNM    -0.051440
+CERN   -0.053070
+NDAQ   -0.068994
+REGN   -0.093544
+dtype: float64
+
+Portfolio Returns:
+Long:
+WMB       -0.054848
+AES       -0.224691
+AMT       -0.031351
+PCLN      -0.094781
+CCI       -0.065868
+Average   -0.094308
+dtype: float64
+
+Short:
+FMC       -0.100573
+UNM       -0.062205
+CERN      -0.047619
+NDAQ      -0.226266
+REGN      -0.049664
+Average   -0.097265
+dtype: float64
+
+2003-07
+
+Monmentum portfolio and their past performance:
+Long:
+AKAM    0.327122
+PCLN    0.305588
+WMB     0.248780
+NVDA    0.189687
+AES     0.181774
+dtype: float64
+
+Short:
+REGN   -0.030873
+UNM    -0.043185
+NDAQ   -0.047749
+MOS    -0.051616
+CERN   -0.062546
+dtype: float64
+
+Portfolio Returns:
+Long:
+AKAM      -0.111857
+PCLN       0.458219
+WMB       -0.139657
+NVDA      -0.173166
+AES       -0.031847
+Average    0.000338
+dtype: float64
+
+Short:
+REGN       0.069054
+UNM        0.006828
+NDAQ      -0.096774
+MOS       -0.028776
+CERN      -0.421028
+Average   -0.094139
+dtype: float64
+
+2003-08
+
+Monmentum portfolio and their past performance:
+Long:
+AKAM    0.445652
+PCLN    0.409406
+SNDK    0.358355
+CCI     0.272004
+ETFC    0.220791
+dtype: float64
+
+Short:
+REGN   -0.020446
+CCE    -0.021782
+MOS    -0.030651
+CERN   -0.040217
+THC    -0.051008
+dtype: float64
+
+Portfolio Returns:
+Long:
+AKAM       0.125945
+PCLN       0.235202
+SNDK       0.069247
+CCI        0.127726
+ETFC       0.088101
+Average    0.129244
+dtype: float64
+
+Short:
+REGN      -0.118132
+CCE       -0.075287
+MOS       -0.148252
+CERN      -0.182553
+THC       -0.178311
+Average   -0.140507
+dtype: float64
+
+2003-09
+
+Monmentum portfolio and their past performance:
+Long:
+PCLN    0.462842
+SNDK    0.341573
+AKAM    0.297872
+KMX     0.256173
+STX     0.213351
+dtype: float64
+
+Short:
+NWL    -0.021653
+NOV    -0.023446
+THC    -0.023998
+MOS    -0.029878
+REGN   -0.042675
+dtype: float64
+
+Portfolio Returns:
+Long:
+PCLN      -0.258476
+SNDK       0.097808
+AKAM      -0.044743
+KMX       -0.126246
+STX        0.144603
+Average   -0.037411
+dtype: float64
+
+Short:
+NWL        0.090723
+NOV        0.039665
+THC        0.087091
+MOS        0.191599
+REGN      -0.080467
+Average    0.065722
+dtype: float64
+
+2003-10
+
+Monmentum portfolio and their past performance:
+Long:
+SNDK    0.367078
+PCLN    0.351287
+REGN    0.338811
+AKAM    0.283144
+PWR     0.263258
+dtype: float64
+
+Short:
+JNJ   -0.017227
+MAT   -0.018570
+NOV   -0.024870
+MOS   -0.032157
+NWL   -0.036727
+dtype: float64
+
+Portfolio Returns:
+Long:
+SNDK       0.214189
+PCLN      -0.013750
+REGN      -0.250711
+AKAM       1.180328
+PWR       -0.035632
+Average    0.218885
+dtype: float64
+
+Short:
+JNJ        0.009747
+MAT       -0.029442
+NOV       -0.015217
+MOS       -0.098186
+NWL       -0.032957
+Average   -0.033211
+dtype: float64
+
+2003-11
+
+Monmentum portfolio and their past performance:
+Long:
+SNDK    0.260657
+CTSH    0.191940
+NFLX    0.189063
+STX     0.169906
+URBN    0.163706
+dtype: float64
+
+Short:
+CAM    -0.022404
+NVDA   -0.024223
+NWL    -0.032594
+NOV    -0.033922
+MOS    -0.052519
+dtype: float64
+
+Portfolio Returns:
+Long:
+SNDK      -0.015074
+CTSH       0.031494
+NFLX      -0.132592
+STX       -0.142751
+URBN       0.148591
+Average   -0.022066
+dtype: float64
+
+Short:
+CAM       -0.046084
+NVDA      -0.195447
+NWL       -0.021669
+NOV       -0.045504
+MOS       -0.061899
+Average   -0.074121
+dtype: float64
+
+2003-12
+
+Monmentum portfolio and their past performance:
+Long:
+AKAM    0.220475
+NFLX    0.191412
+SNDK    0.188997
+URBN    0.168904
+CTSH    0.157565
+dtype: float64
+
+Short:
+DO     -0.029233
+NWL    -0.031762
+REGN   -0.034401
+MRK    -0.037011
+VRTX   -0.057227
+dtype: float64
+
+Portfolio Returns:
+Long:
+AKAM      -0.207353
+NFLX       0.081460
+SNDK      -0.212497
+URBN      -0.089963
+CTSH      -0.009055
+Average   -0.087482
+dtype: float64
+
+Short:
+DO        -0.147981
+NWL        0.022452
+REGN      -0.162162
+MRK       -0.127928
+VRTX      -0.121795
+Average   -0.107483
+dtype: float64
+
+2004-01
+
+Monmentum portfolio and their past performance:
+Long:
+AKAM    0.208416
+RHT     0.181038
+NFLX    0.154363
+URBN    0.153153
+TSO     0.151886
+dtype: float64
+
+Short:
+KSS    -0.031856
+NWL    -0.031924
+MRK    -0.034643
+PCLN   -0.055179
+VRTX   -0.064237
+dtype: float64
+
+Portfolio Returns:
+Long:
+AKAM       0.178108
+RHT       -0.003266
+NFLX       0.326464
+URBN       0.097495
+TSO        0.029035
+Average    0.125567
+dtype: float64
+
+Short:
+KSS       -0.012996
+NWL       -0.075530
+MRK       -0.021679
+PCLN      -0.025027
+VRTX       0.067619
+Average   -0.013523
+dtype: float64
+
+2004-02
+
+Monmentum portfolio and their past performance:
+Long:
+AKAM    0.398643
+RHT     0.315841
+NFLX    0.251752
+TSO     0.168599
+RAI     0.140143
+dtype: float64
+
+Short:
+STX    -0.023838
+DLTR   -0.024269
+VRTX   -0.036607
+KSS    -0.049169
+PCLN   -0.073302
+dtype: float64
+
+Portfolio Returns:
+Long:
+AKAM       0.262992
+RHT        0.013654
+NFLX      -0.044411
+TSO        0.198818
+RAI        0.055827
+Average    0.097376
+dtype: float64
+
+Short:
+STX       -0.083419
+DLTR       0.040413
+VRTX      -0.120531
+KSS       -0.153725
+PCLN      -0.202597
+Average   -0.103972
+dtype: float64
+
+2004-03
+
+Monmentum portfolio and their past performance:
+Long:
+AKAM    0.349825
+RHT     0.168911
+NFLX    0.168089
+WYNN    0.158147
+MNST    0.148148
+dtype: float64
+
+Short:
+SNDK   -0.034178
+VRTX   -0.040544
+REGN   -0.043086
+STX    -0.055016
+PCLN   -0.062440
+dtype: float64
+
+Portfolio Returns:
+Long:
+AKAM      -0.173940
+RHT        0.252694
+NFLX       0.017554
+WYNN      -0.079298
+MNST       0.282353
+Average    0.059873
+dtype: float64
+
+Short:
+SNDK      -0.027562
+VRTX       0.121240
+REGN       0.088889
+STX        0.065592
+PCLN      -0.166307
+Average    0.016371
+dtype: float64
+
+2004-04
+
+Monmentum portfolio and their past performance:
+Long:
+AKAM    0.264184
+MNST    0.162602
+MOS     0.156480
+WYNN    0.141204
+TSO     0.133557
+dtype: float64
+
+Short:
+AMZN   -0.040730
+THC    -0.041453
+LUV    -0.043893
+SNDK   -0.045017
+STX    -0.066891
+dtype: float64
+
+Portfolio Returns:
+Long:
+AKAM      -0.073208
+MNST      -0.095675
+MOS       -0.160274
+WYNN       0.202023
+TSO        0.167413
+Average    0.008056
+dtype: float64
+
+Short:
+AMZN       0.007376
+THC       -0.081818
+LUV       -0.005579
+SNDK       0.189134
+STX        0.236453
+Average    0.069113
+dtype: float64
+
+2004-05
+
+Monmentum portfolio and their past performance:
+Long:
+MOS     0.151515
+MNST    0.142857
+RHT     0.142149
+WYNN    0.132664
+CME     0.110892
+dtype: float64
+
+Short:
+WDC    -0.032342
+TSS    -0.035731
+GRMN   -0.038927
+SNDK   -0.048861
+STX    -0.049958
+dtype: float64
+
+Portfolio Returns:
+Long:
+MOS        0.027733
+MNST       0.775362
+RHT        0.194595
+WYNN      -0.039192
+CME        0.031536
+Average    0.198007
+dtype: float64
+
+Short:
+WDC       -0.162232
+TSS       -0.046595
+GRMN      -0.098800
+SNDK      -0.013571
+STX       -0.027598
+Average   -0.069759
+dtype: float64
+
+2004-06
+
+Monmentum portfolio and their past performance:
+Long:
+MNST    0.231481
+CME     0.123972
+RHT     0.117222
+BIIB    0.099491
+TSO     0.093867
+dtype: float64
+
+Short:
+LRCX   -0.047831
+FCX    -0.047883
+PWR    -0.052562
+STX    -0.055517
+GRMN   -0.071429
+dtype: float64
+
+Portfolio Returns:
+Long:
+MNST       0.000816
+CME        0.210054
+RHT       -0.208493
+BIIB      -0.015752
+TSO        0.075940
+Average    0.012513
+dtype: float64
+
+Short:
+LRCX      -0.013232
+FCX        0.013057
+PWR       -0.148148
+STX       -0.123817
+GRMN       0.004309
+Average   -0.053566
+dtype: float64
+
+2004-07
+
+Monmentum portfolio and their past performance:
+Long:
+MNST    0.299383
+CME     0.104341
+TSO     0.099424
+ADSK    0.091364
+TSN     0.080172
+dtype: float64
+
+Short:
+PWR    -0.052492
+SNDK   -0.053573
+KMX    -0.053586
+REGN   -0.061298
+GRMN   -0.065590
+dtype: float64
+
+Portfolio Returns:
+Long:
+MNST      -0.170884
+CME       -0.148850
+TSO        0.022686
+ADSK      -0.067532
+TSN       -0.077472
+Average   -0.088410
+dtype: float64
+
+Short:
+PWR       -0.029032
+SNDK      -0.148539
+KMX        0.028069
+REGN       0.196850
+GRMN      -0.116561
+Average   -0.013843
+dtype: float64
+
+2004-08
+
+Monmentum portfolio and their past performance:
+Long:
+MNST    0.144608
+TSO     0.129834
+CNX     0.093640
+CME     0.086096
+RRC     0.082472
+dtype: float64
+
+Short:
+NDAQ   -0.050365
+PWR    -0.052622
+REGN   -0.065762
+KMX    -0.069813
+ACT    -0.075742
+dtype: float64
+
+Portfolio Returns:
+Long:
+MNST       0.333994
+TSO       -0.144014
+CNX       -0.061506
+CME        0.055024
+RRC       -0.069726
+Average    0.022754
+dtype: float64
+
+Short:
+NDAQ       0.020635
+PWR       -0.026646
+REGN      -0.087010
+KMX        0.047969
+ACT       -0.119838
+Average   -0.032978
+dtype: float64
+
+2004-09
+
+Monmentum portfolio and their past performance:
+Long:
+MNST    0.121399
+FLIR    0.105808
+SWN     0.071759
+CME     0.068538
+ADSK    0.062313
+dtype: float64
+
+Short:
+KMX    -0.060795
+ACT    -0.065602
+REGN   -0.072785
+NVDA   -0.077638
+NFLX   -0.080724
+dtype: float64
+
+Portfolio Returns:
+Long:
+MNST      -0.078171
+FLIR       0.000689
+SWN        0.188446
+CME        0.254714
+ADSK       0.134794
+Average    0.100094
+dtype: float64
+
+Short:
+KMX       -0.175321
+ACT       -0.068330
+REGN       0.010147
+NVDA      -0.190553
+NFLX      -0.144359
+Average   -0.113683
+dtype: float64
+
+2004-10
+
+Monmentum portfolio and their past performance:
+Long:
+MNST    0.122711
+ISRG    0.105334
+SWN     0.094551
+FLIR    0.075050
+URBN    0.066275
+dtype: float64
+
+Short:
+REGN   -0.055098
+CAH    -0.057715
+NVDA   -0.070714
+RHT    -0.073701
+NFLX   -0.083979
+dtype: float64
+
+Portfolio Returns:
+Long:
+MNST       0.011597
+ISRG       0.186083
+SWN        0.061574
+FLIR      -0.070468
+URBN       0.203409
+Average    0.078439
+dtype: float64
+
+Short:
+REGN       0.141230
+CAH       -0.046822
+NVDA       0.022487
+RHT        0.080000
+NFLX       0.422535
+Average    0.123886
+dtype: float64
+
+2004-11
+
+Monmentum portfolio and their past performance:
+Long:
+SWN     0.125786
+AAPL    0.107143
+ISRG    0.094370
+URBN    0.092219
+DO      0.085310
+dtype: float64
+
+Short:
+NVDA   -0.056283
+REGN   -0.060239
+CAH    -0.067935
+RHT    -0.078800
+NFLX   -0.092531
+dtype: float64
+
+Portfolio Returns:
+Long:
+SWN        0.148932
+AAPL       0.292469
+ISRG       0.225947
+URBN       0.053301
+DO         0.081138
+Average    0.160357
+dtype: float64
+
+Short:
+NVDA      -0.326794
+REGN      -0.197613
+CAH       -0.156439
+RHT       -0.185771
+NFLX      -0.193001
+Average   -0.211923
+dtype: float64
+
+2004-12
+
+Monmentum portfolio and their past performance:
+Long:
+SWN     0.139135
+AAPL    0.139021
+ISRG    0.133352
+VRSN    0.107600
+FFIV    0.100280
+dtype: float64
+
+Short:
+BRCM   -0.053825
+MMC    -0.059897
+MRK    -0.071382
+RHT    -0.079536
+NFLX   -0.109040
+dtype: float64
+
+Portfolio Returns:
+Long:
+SWN       -0.106092
+AAPL      -0.066382
+ISRG       0.031720
+VRSN      -0.056778
+FFIV       0.012263
+Average   -0.037054
+dtype: float64
+
+Short:
+BRCM       0.049078
+MMC       -0.141568
+MRK       -0.127706
+RHT        0.129333
+NFLX      -0.059556
+Average   -0.030084
+dtype: float64
+
+2005-01
+
+Monmentum portfolio and their past performance:
+Long:
+AAPL    0.176935
+FFIV    0.156250
+VRSN    0.154284
+ISRG    0.142342
+ADSK    0.135124
+dtype: float64
+
+Short:
+PFE    -0.028235
+CCE    -0.036057
+MMC    -0.048500
+MRK    -0.052872
+NFLX   -0.090370
+dtype: float64
+
+Portfolio Returns:
+Long:
+AAPL       0.224997
+FFIV      -0.008289
+VRSN      -0.216216
+ISRG       0.060164
+ADSK      -0.226824
+Average   -0.033233
+dtype: float64
+
+Short:
+PFE        0.097920
+CCE       -0.044349
+MMC       -0.003647
+MRK        0.109725
+NFLX       0.036913
+Average    0.039312
+dtype: float64
+
+2005-02
+
+Monmentum portfolio and their past performance:
+Long:
+AAPL    0.196262
+FFIV    0.152639
+NVDA    0.135770
+WYNN    0.132176
+CBG     0.122015
+dtype: float64
+
+Short:
+RHT    -0.030505
+PFE    -0.032735
+MMC    -0.045511
+MRK    -0.050662
+NFLX   -0.050805
+dtype: float64
+
+Portfolio Returns:
+Long:
+AAPL       0.147941
+FFIV       0.187098
+NVDA       0.238544
+WYNN       0.069878
+CBG        0.020006
+Average    0.132694
+dtype: float64
+
+Short:
+RHT       -0.020354
+PFE       -0.123611
+MMC        0.000606
+MRK       -0.154510
+NFLX       0.060105
+Average   -0.047553
+dtype: float64
+
+2005-03
+
+Monmentum portfolio and their past performance:
+Long:
+AAPL    0.213900
+NVDA    0.148526
+FFIV    0.134298
+VLO     0.123610
+ISRG    0.121646
+dtype: float64
+
+Short:
+PFE    -0.030571
+REGN   -0.038547
+MMC    -0.048991
+NFLX   -0.051218
+MRK    -0.053780
+dtype: float64
+
+Portfolio Returns:
+Long:
+AAPL      -0.081122
+NVDA      -0.186376
+FFIV      -0.092255
+VLO        0.142522
+ISRG      -0.022357
+Average   -0.047918
+dtype: float64
+
+Short:
+PFE        0.017287
+REGN       0.171096
+MMC        0.089182
+NFLX      -0.003707
+MRK       -0.017638
+Average    0.051244
+dtype: float64
+
+2005-04
+
+Monmentum portfolio and their past performance:
+Long:
+MNST    0.172996
+AAPL    0.148829
+NVDA    0.131868
+ISRG    0.126907
+HUM     0.120269
+dtype: float64
+
+Short:
+AKAM   -0.038174
+SYMC   -0.042887
+NFLX   -0.044337
+REGN   -0.045752
+BIIB   -0.058250
+dtype: float64
+
+Portfolio Returns:
+Long:
+MNST       0.052236
+AAPL      -0.109073
+NVDA      -0.071398
+ISRG      -0.093396
+HUM        0.067240
+Average   -0.030878
+dtype: float64
+
+Short:
+AKAM       0.075140
+SYMC       0.131374
+NFLX      -0.068329
+REGN      -0.214429
+BIIB      -0.074266
+Average   -0.030102
+dtype: float64
+
+2005-05
+
+Monmentum portfolio and their past performance:
+Long:
+MNST    0.151596
+VLO     0.116293
+NDAQ    0.105774
+ISRG    0.077010
+HUM     0.072222
+dtype: float64
+
+Short:
+HAR    -0.054292
+SYMC   -0.058560
+EBAY   -0.061497
+BIIB   -0.065274
+REGN   -0.067930
+dtype: float64
+
+Portfolio Returns:
+Long:
+MNST       0.201327
+VLO        0.042105
+NDAQ       0.144096
+ISRG       0.142150
+HUM        0.070771
+Average    0.120090
+dtype: float64
+
+Short:
+HAR       -0.046787
+SYMC      -0.195135
+EBAY      -0.240799
+BIIB      -0.065648
+REGN      -0.057756
+Average   -0.121225
+dtype: float64
+
+2005-06
+
+Monmentum portfolio and their past performance:
+Long:
+MNST    0.169036
+NDAQ    0.145155
+VLO     0.083043
+CELG    0.069565
+EOG     0.058968
+dtype: float64
+
+Short:
+REGN   -0.047802
+F      -0.052041
+HAR    -0.062554
+EBAY   -0.065003
+BIIB   -0.067231
+dtype: float64
+
+Portfolio Returns:
+Long:
+MNST       0.142415
+NDAQ       0.125364
+VLO        0.139271
+CELG       0.008203
+EOG        0.133553
+Average    0.109761
+dtype: float64
+
+Short:
+REGN      -0.344774
+F         -0.039314
+HAR       -0.002928
+EBAY       0.159294
+BIIB       0.143073
+Average   -0.016930
+dtype: float64
+
+2005-07
+
+Monmentum portfolio and their past performance:
+Long:
+MNST    0.199134
+NDAQ    0.181694
+SWN     0.118611
+GME     0.107496
+VLO     0.104292
+dtype: float64
+
+Short:
+WYNN   -0.033755
+F      -0.038894
+EBAY   -0.041632
+HAR    -0.050919
+BIIB   -0.076402
+dtype: float64
+
+Portfolio Returns:
+Long:
+MNST       0.124542
+NDAQ       0.176166
+SWN        0.105741
+GME        0.039622
+VLO        0.024868
+Average    0.094188
+dtype: float64
+
+Short:
+WYNN      -0.179151
+F         -0.062120
+EBAY      -0.326338
+HAR       -0.040024
+BIIB      -0.186033
+Average   -0.158733
+dtype: float64
+
+2005-08
+
+Monmentum portfolio and their past performance:
+Long:
+MNST    0.207858
+NDAQ    0.175541
+SWN     0.137923
+GME     0.132257
+CELG    0.102638
+dtype: float64
+
+Short:
+PRGO   -0.034441
+FDO    -0.037070
+WYNN   -0.039301
+HAR    -0.046351
+BIIB   -0.070698
+dtype: float64
+
+Portfolio Returns:
+Long:
+MNST       0.074392
+NDAQ       0.059031
+SWN        0.057092
+GME       -0.017883
+CELG       0.064705
+Average    0.047467
+dtype: float64
+
+Short:
+PRGO      -0.007284
+FDO        0.223479
+WYNN       0.137992
+HAR       -0.201266
+BIIB      -0.058882
+Average    0.018808
+dtype: float64
+
+2005-09
+
+Monmentum portfolio and their past performance:
+Long:
+NFLX    0.192386
+NDAQ    0.183736
+SWN     0.153649
+MNST    0.127329
+GLW     0.121984
+dtype: float64
+
+Short:
+AVP    -0.035909
+PRGO   -0.042144
+WYNN   -0.047305
+FFIV   -0.048769
+FDO    -0.049806
+dtype: float64
+
+Portfolio Returns:
+Long:
+NFLX       0.241958
+NDAQ       0.079867
+SWN        0.389030
+MNST      -0.077628
+GLW       -0.019192
+Average    0.122807
+dtype: float64
+
+Short:
+AVP        0.171552
+PRGO      -0.015681
+WYNN       0.083930
+FFIV      -0.066201
+FDO       -0.007475
+Average    0.033225
+dtype: float64
+
+2005-10
+
+Monmentum portfolio and their past performance:
+Long:
+SWN     0.189281
+NDAQ    0.185367
+NFLX    0.177101
+VRTX    0.164923
+CME     0.119501
+dtype: float64
+
+Short:
+WYNN   -0.034703
+PDCO   -0.034777
+PRGO   -0.037016
+AVP    -0.044438
+FDO    -0.046388
+dtype: float64
+
+Portfolio Returns:
+Long:
+SWN       -0.138153
+NDAQ       0.242681
+NFLX      -0.036036
+VRTX      -0.039490
+CME        0.048554
+Average    0.015511
+dtype: float64
+
+Short:
+WYNN      -0.046927
+PDCO      -0.049052
+PRGO       0.045614
+AVP       -0.012290
+FDO       -0.095644
+Average   -0.031660
+dtype: float64
+
+2005-11
+
+Monmentum portfolio and their past performance:
+Long:
+SWN     0.181746
+SNDK    0.178519
+NFLX    0.163494
+NDAQ    0.138535
+VRTX    0.128225
+dtype: float64
+
+Short:
+FOSL   -0.040390
+PETM   -0.040997
+VRSN   -0.043917
+LEG    -0.047700
+AVP    -0.053663
+dtype: float64
+
+Portfolio Returns:
+Long:
+SWN        0.018469
+SNDK      -0.168577
+NFLX       0.055685
+NDAQ       0.244265
+VRTX       0.100642
+Average    0.050097
+dtype: float64
+
+Short:
+FOSL      -0.317010
+PETM      -0.026061
+VRSN       0.033674
+LEG       -0.185148
+AVP       -0.016829
+Average   -0.102275
+dtype: float64
+
+2005-12
+
+Monmentum portfolio and their past performance:
+Long:
+SNDK    0.215109
+ISRG    0.187910
+NDAQ    0.170215
+RHT     0.146857
+NFLX    0.124871
+dtype: float64
+
+Short:
+PFE    -0.036116
+UHS    -0.037302
+VRSN   -0.044116
+AVP    -0.047055
+THC    -0.063596
+dtype: float64
+
+Portfolio Returns:
+Long:
+SNDK       0.372668
+ISRG       0.003814
+NDAQ      -0.096662
+RHT        0.153846
+NFLX      -0.039100
+Average    0.078913
+dtype: float64
+
+Short:
+PFE       -0.112254
+UHS        0.022916
+VRSN       0.048963
+AVP       -0.029851
+THC        0.071864
+Average    0.000328
+dtype: float64
+
+2006-01
+
+Monmentum portfolio and their past performance:
+Long:
+ISRG    0.201065
+SNDK    0.162120
+NDAQ    0.147389
+AAPL    0.130974
+ESRX    0.127087
+dtype: float64
+
+Short:
+IPG    -0.038948
+SYMC   -0.040524
+CVC    -0.041750
+FLIR   -0.043734
+THC    -0.054827
+dtype: float64
+
+Portfolio Returns:
+Long:
+ISRG       0.119689
+SNDK      -0.014032
+NDAQ       0.099835
+AAPL       0.008964
+ESRX       0.049983
+Average    0.052888
+dtype: float64
+
+Short:
+IPG       -0.044193
+SYMC       0.020583
+CVC       -0.093224
+FLIR      -0.047557
+THC        0.043307
+Average   -0.024217
+dtype: float64
+
+2006-02
+
+Monmentum portfolio and their past performance:
+Long:
+RHT     0.168638
+MNST    0.168427
+SNDK    0.164245
+VRTX    0.159591
+REGN    0.139692
+dtype: float64
+
+Short:
+OI     -0.031559
+CVC    -0.034179
+PDCO   -0.036003
+FLIR   -0.046462
+THC    -0.067729
+dtype: float64
+
+Portfolio Returns:
+Long:
+RHT       -0.036961
+MNST       0.064577
+SNDK      -0.074607
+VRTX       0.223301
+REGN       0.063412
+Average    0.047944
+dtype: float64
+
+Short:
+OI         0.147681
+CVC       -0.034347
+PDCO      -0.018328
+FLIR      -0.087012
+THC       -0.057613
+Average   -0.009924
+dtype: float64
+
+2006-03
+
+Monmentum portfolio and their past performance:
+Long:
+VRTX    0.163600
+MNST    0.151042
+REGN    0.140527
+AKAM    0.128917
+WDC     0.122975
+dtype: float64
+
+Short:
+CVC    -0.030921
+TSN    -0.032465
+SYMC   -0.034981
+JNPR   -0.035187
+THC    -0.059632
+dtype: float64
+
+Portfolio Returns:
+Long:
+VRTX      -0.187075
+MNST       0.331587
+REGN      -0.048301
+AKAM       0.228804
+WDC       -0.144890
+Average    0.036025
+dtype: float64
+
+Short:
+CVC       -0.026717
+TSN        0.001451
+SYMC      -0.002952
+JNPR       0.039694
+THC        0.054475
+Average    0.013190
+dtype: float64
+
+2006-04
+
+Monmentum portfolio and their past performance:
+Long:
+MNST    0.236673
+URI     0.132532
+NUE     0.121763
+VRTX    0.121577
+STX     0.116347
+dtype: float64
+
+Short:
+ACT    -0.028329
+PXD    -0.029582
+THC    -0.040336
+TSN    -0.040482
+SYMC   -0.047541
+dtype: float64
+
+Portfolio Returns:
+Long:
+MNST       0.078521
+URI       -0.007273
+NUE        0.063217
+VRTX      -0.005579
+STX        0.018307
+Average    0.029439
+dtype: float64
+
+Short:
+ACT       -0.000345
+PXD        0.030849
+THC       -0.120713
+TSN       -0.068264
+SYMC       0.013538
+Average   -0.028987
+dtype: float64
+
+2006-05
+
+Monmentum portfolio and their past performance:
+Long:
+MNST    0.156944
+ICE     0.141097
+AKAM    0.138857
+NUE     0.124874
+URI     0.119210
+dtype: float64
+
+Short:
+JNPR   -0.034811
+TSN    -0.036485
+INTC   -0.037891
+STJ    -0.038369
+URBN   -0.042900
+dtype: float64
+
+Portfolio Returns:
+Long:
+MNST       0.340531
+ICE       -0.167563
+AKAM      -0.087550
+NUE       -0.070602
+URI       -0.065371
+Average   -0.010111
+dtype: float64
+
+Short:
+JNPR       0.032133
+TSN       -0.083547
+INTC       0.069648
+STJ        0.137843
+URBN       0.176573
+Average    0.066530
+dtype: float64
+
+2006-06
+
+Monmentum portfolio and their past performance:
+Long:
+MNST    0.179227
+ICE     0.152658
+ADM     0.118967
+NUE     0.110974
+AKAM    0.102440
+dtype: float64
+
+Short:
+STJ    -0.046013
+UNH    -0.046948
+EBAY   -0.046999
+AMZN   -0.050055
+EXPE   -0.057348
+dtype: float64
+
+Portfolio Returns:
+Long:
+MNST       0.078635
+ICE        0.064586
+ADM       -0.004626
+NUE        0.060193
+AKAM       0.142679
+Average    0.068293
+dtype: float64
+
+Short:
+STJ        0.026844
+UNH        0.015529
+EBAY       0.117291
+AMZN      -0.100941
+EXPE      -0.047354
+Average    0.002274
+dtype: float64
+
+2006-07
+
+Monmentum portfolio and their past performance:
+Long:
+MNST    0.142732
+GRMN    0.083439
+ALXN    0.082294
+ADM     0.079524
+EXPD    0.078973
+dtype: float64
+
+Short:
+URBN   -0.059247
+GT     -0.060300
+STJ    -0.060334
+DHI    -0.062087
+EXPE   -0.068761
+dtype: float64
+
+Portfolio Returns:
+Long:
+MNST      -0.092276
+GRMN      -0.154612
+ALXN      -0.048013
+ADM        0.020219
+EXPD      -0.304049
+Average   -0.115746
+dtype: float64
+
+Short:
+URBN       0.195677
+GT        -0.002705
+STJ       -0.133677
+DHI        0.112788
+EXPE       0.132314
+Average    0.060879
+dtype: float64
+
+2006-08
+
+Monmentum portfolio and their past performance:
+Long:
+MNST    0.191864
+GRMN    0.086179
+FTI     0.066696
+ADM     0.062436
+AKAM    0.057363
+dtype: float64
+
+Short:
+DHI    -0.061113
+JBL    -0.064301
+EXPE   -0.065413
+BRCM   -0.070517
+URBN   -0.070726
+dtype: float64
+
+Portfolio Returns:
+Long:
+MNST      -0.388839
+GRMN       0.043555
+FTI       -0.070103
+ADM       -0.041171
+AKAM       0.057797
+Average   -0.079752
+dtype: float64
+
+Short:
+DHI       -0.049270
+JBL       -0.215825
+EXPE      -0.290421
+BRCM      -0.221591
+URBN      -0.091938
+Average   -0.173809
+dtype: float64
+
+2006-09
+
+Monmentum portfolio and their past performance:
+Long:
+AKAM     0.066402
+CVC      0.053437
+CMCSA    0.049829
+PCLN     0.049819
+OKE      0.046363
+dtype: float64
+
+Short:
+NDAQ   -0.056393
+DHI    -0.057272
+JBL    -0.058598
+URBN   -0.062592
+BRCM   -0.066501
+dtype: float64
+
+Portfolio Returns:
+Long:
+AKAM       0.226434
+CVC       -0.037399
+CMCSA      0.029211
+PCLN       0.108597
+OKE       -0.009837
+Average    0.063401
+dtype: float64
+
+Short:
+NDAQ      -0.034592
+DHI       -0.109297
+JBL       -0.058242
+URBN      -0.124352
+BRCM      -0.103756
+Average   -0.086048
+dtype: float64
+
+2006-10
+
+Monmentum portfolio and their past performance:
+Long:
+AKAM    0.065412
+PCLN    0.058452
+HUM     0.056444
+CVC     0.048611
+T       0.041615
+dtype: float64
+
+Short:
+PNR    -0.048109
+JBL    -0.054644
+HP     -0.058100
+BRCM   -0.058544
+URI    -0.059314
+dtype: float64
+
+Portfolio Returns:
+Long:
+AKAM      -0.067429
+PCLN       0.102857
+HUM       -0.118560
+CVC        0.222075
+T          0.058242
+Average    0.039437
+dtype: float64
+
+Short:
+PNR       -0.219694
+JBL       -0.004154
+HP        -0.052986
+BRCM       0.046029
+URI        0.016386
+Average   -0.042884
+dtype: float64
+
+2006-11
+
+Monmentum portfolio and their past performance:
+Long:
+MA      0.098467
+AKAM    0.079255
+HUM     0.068521
+PCLN    0.063410
+REGN    0.057342
+dtype: float64
+
+Short:
+MNST   -0.041356
+BSX    -0.043582
+URI    -0.045548
+RHT    -0.053823
+HP     -0.055711
+dtype: float64
+
+Portfolio Returns:
+Long:
+MA         0.189256
+AKAM       0.026684
+HUM       -0.087165
+PCLN      -0.034542
+REGN       0.063851
+Average    0.031617
+dtype: float64
+
+Short:
+MNST       0.070549
+BSX        0.013150
+URI       -0.092942
+RHT       -0.045648
+HP        -0.158189
+Average   -0.042616
+dtype: float64
+
+2006-12
+
+Monmentum portfolio and their past performance:
+Long:
+MA      0.172921
+REGN    0.134049
+ICE     0.132881
+NVDA    0.109506
+AKAM    0.090079
+dtype: float64
+
+Short:
+CTXS   -0.033360
+WFM    -0.034348
+HSP    -0.037089
+MNST   -0.057390
+RHT    -0.058257
+dtype: float64
+
+Portfolio Returns:
+Long:
+MA        -0.047050
+REGN      -0.063800
+ICE        0.217080
+NVDA       0.015194
+AKAM       0.091385
+Average    0.042562
+dtype: float64
+
+Short:
+CTXS       0.074828
+WFM        0.057995
+HSP       -0.027626
+MNST      -0.214465
+RHT       -0.290454
+Average   -0.079944
+dtype: float64
+
+2007-01
+
+Monmentum portfolio and their past performance:
+Long:
+MA      0.189616
+NVDA    0.147611
+ICE     0.139001
+GT      0.133594
+CF      0.118308
+dtype: float64
+
+Short:
+WFM    -0.031134
+RHT    -0.032627
+HSP    -0.034828
+ADM    -0.035285
+MNST   -0.050593
+dtype: float64
+
+Portfolio Returns:
+Long:
+MA         0.161865
+NVDA      -0.139690
+ICE        0.171362
+GT         0.076755
+CF         0.202570
+Average    0.094572
+dtype: float64
+
+Short:
+WFM        0.029424
+RHT       -0.028417
+HSP       -0.088626
+ADM       -0.106363
+MNST      -0.149469
+Average   -0.068690
+dtype: float64
+
+2007-02
+
+Monmentum portfolio and their past performance:
+Long:
+ICE     0.184549
+GT      0.174080
+MA      0.165375
+CF      0.142130
+FFIV    0.105544
+dtype: float64
+
+Short:
+DGX   -0.029807
+DNR   -0.030180
+MSI   -0.030825
+VLO   -0.032502
+ADM   -0.038975
+dtype: float64
+
+Portfolio Returns:
+Long:
+ICE        0.110882
+GT         0.065173
+MA        -0.050304
+CF         0.194914
+FFIV       0.008495
+Average    0.065832
+dtype: float64
+
+Short:
+DGX        0.037505
+DNR       -0.031318
+MSI        0.056140
+VLO       -0.036861
+ADM        0.026116
+Average    0.010317
+dtype: float64
+
+2007-03
+
+Monmentum portfolio and their past performance:
+Long:
+ICE     0.197757
+CF      0.181460
+GT      0.123917
+MA      0.115343
+GMCR    0.110294
+dtype: float64
+
+Short:
+DGX    -0.025796
+WFM    -0.030367
+MSI    -0.034116
+SNDK   -0.049126
+MU     -0.049153
+dtype: float64
+
+Portfolio Returns:
+Long:
+ICE       -0.150817
+CF         0.026579
+GT         0.206501
+MA         0.006303
+GMCR       0.135785
+Average    0.044870
+dtype: float64
+
+Short:
+DGX        0.017415
+WFM        0.041320
+MSI        0.064924
+SNDK      -0.188868
+MU        -0.022766
+Average   -0.017595
+dtype: float64
+
+2007-04
+
+Monmentum portfolio and their past performance:
+Long:
+CF     0.189783
+GT     0.167013
+ICE    0.095209
+TSO    0.094446
+OI     0.089807
+dtype: float64
+
+Short:
+MU     -0.039781
+SNDK   -0.040823
+MSI    -0.041596
+WFM    -0.047205
+STZ    -0.048576
+dtype: float64
+
+Portfolio Returns:
+Long:
+CF        -0.013074
+GT         0.032330
+ICE       -0.037929
+TSO        0.179326
+OI         0.167688
+Average    0.065668
+dtype: float64
+
+Short:
+MU         0.064303
+SNDK       0.029091
+MSI        0.005695
+WFM       -0.022535
+STZ       -0.086124
+Average   -0.001914
+dtype: float64
+
+2007-05
+
+Monmentum portfolio and their past performance:
+Long:
+FSLR    0.210967
+CF      0.162706
+GT      0.154457
+TSO     0.111111
+OI      0.089499
+dtype: float64
+
+Short:
+NFLX   -0.031975
+MU     -0.034004
+STZ    -0.035025
+JBL    -0.038596
+VRTX   -0.046491
+dtype: float64
+
+Portfolio Returns:
+Long:
+FSLR       0.226962
+CF         0.203455
+GT         0.109303
+TSO        0.063876
+OI         0.116721
+Average    0.144063
+dtype: float64
+
+Short:
+NFLX       0.026185
+MU        -0.110132
+STZ       -0.069163
+JBL        0.031656
+VRTX       0.017555
+Average   -0.020780
+dtype: float64
+
+2007-06
+
+Monmentum portfolio and their past performance:
+Long:
+FSLR    0.221745
+GT      0.136191
+TSO     0.120507
+CF      0.120219
+OI      0.120059
+dtype: float64
+
+Short:
+STX    -0.030522
+SBUX   -0.031089
+NFLX   -0.032535
+PHM    -0.033239
+VRTX   -0.038500
+dtype: float64
+
+Portfolio Returns:
+Long:
+FSLR       0.375238
+GT        -0.008580
+TSO       -0.094446
+CF         0.338156
+OI         0.051967
+Average    0.132467
+dtype: float64
+
+Short:
+STX       -0.077665
+SBUX       0.105733
+NFLX       0.096894
+PHM        0.162798
+VRTX       0.042819
+Average    0.066116
+dtype: float64
+
+2007-07
+
+Monmentum portfolio and their past performance:
+Long:
+FSLR    0.276338
+CF      0.147739
+AMZN    0.145545
+MOS     0.133491
+NOV     0.129137
+dtype: float64
+
+Short:
+AMGN   -0.035343
+HCP    -0.036404
+SBUX   -0.037321
+VRTX   -0.038607
+PHM    -0.040024
+dtype: float64
+
+Portfolio Returns:
+Long:
+FSLR       0.146667
+CF        -0.057608
+AMZN       0.110616
+MOS       -0.044494
+NOV        0.071671
+Average    0.045370
+dtype: float64
+
+Short:
+AMGN       0.057024
+HCP        0.091919
+SBUX      -0.044146
+VRTX      -0.148292
+PHM        0.146838
+Average    0.020669
+dtype: float64
+
+2007-08
+
+Monmentum portfolio and their past performance:
+Long:
+FSLR    0.276625
+AMZN    0.146751
+CF      0.127025
+NOV     0.118225
+MOS     0.107187
+dtype: float64
+
+Short:
+HCP   -0.043427
+PSA   -0.049837
+DHI   -0.054552
+PHM   -0.054963
+LEN   -0.059307
+dtype: float64
+
+Portfolio Returns:
+Long:
+FSLR      -0.004837
+AMZN       0.069719
+CF         0.116526
+NOV        0.133841
+MOS        0.129440
+Average    0.088938
+dtype: float64
+
+Short:
+HCP       -0.157776
+PSA       -0.076039
+DHI        0.051813
+PHM        0.121307
+LEN        0.059269
+Average   -0.000285
+dtype: float64
+
+2007-09
+
+Monmentum portfolio and their past performance:
+Long:
+AMZN    0.164511
+FSLR    0.141954
+GRMN    0.140940
+ISRG    0.134245
+GMCR    0.122766
+dtype: float64
+
+Short:
+NTAP   -0.050153
+LEN    -0.053362
+PHM    -0.056253
+AKAM   -0.059594
+THC    -0.061549
+dtype: float64
+
+Portfolio Returns:
+Long:
+AMZN       0.129504
+FSLR       0.186764
+GRMN       0.026616
+ISRG       0.020822
+GMCR       0.028596
+Average    0.078460
+dtype: float64
+
+Short:
+NTAP       0.053508
+LEN        0.185510
+PHM        0.125262
+AKAM       0.104082
+THC        0.008955
+Average    0.095463
+dtype: float64
+
+2007-10
+
+Monmentum portfolio and their past performance:
+Long:
+GRMN    0.168565
+AMZN    0.149510
+ISRG    0.127773
+FSLR    0.120891
+JNPR    0.116096
+dtype: float64
+
+Short:
+DHI    -0.059936
+LEN    -0.066485
+AKAM   -0.067738
+PHM    -0.070849
+THC    -0.086793
+dtype: float64
+
+Portfolio Returns:
+Long:
+GRMN      -0.067332
+AMZN      -0.061664
+ISRG       0.391616
+FSLR       0.223614
+JNPR      -0.048520
+Average    0.087543
+dtype: float64
+
+Short:
+DHI        0.095549
+LEN        0.073010
+AKAM      -0.322435
+PHM        0.037863
+THC        0.006024
+Average   -0.021998
+dtype: float64
+
+2007-11
+
+Monmentum portfolio and their past performance:
+Long:
+FSLR    0.191683
+ISRG    0.172539
+GRMN    0.157288
+MOS     0.155304
+CF      0.145603
+dtype: float64
+
+Short:
+DHI    -0.067737
+PHM    -0.072806
+LEN    -0.076529
+ETFC   -0.077172
+THC    -0.087518
+dtype: float64
+
+Portfolio Returns:
+Long:
+FSLR       0.475507
+ISRG       0.019191
+GRMN       0.040196
+MOS        0.047136
+CF         0.143212
+Average    0.145048
+dtype: float64
+
+Short:
+DHI       -0.025768
+PHM        0.293043
+LEN        0.218488
+ETFC       0.599805
+THC       -0.615152
+Average    0.094083
+dtype: float64
+
+2007-12
+
+Monmentum portfolio and their past performance:
+Long:
+FSLR    0.253634
+ISRG    0.187551
+MOS     0.123894
+CF      0.102888
+PCLN    0.100858
+dtype: float64
+
+Short:
+CBG    -0.073885
+DHI    -0.074250
+PHM    -0.087131
+LEN    -0.091673
+ETFC   -0.122665
+dtype: float64
+
+Portfolio Returns:
+Long:
+FSLR       0.167874
+ISRG      -0.012949
+MOS        0.312188
+CF         0.162358
+PCLN       0.005672
+Average    0.127029
+dtype: float64
+
+Short:
+CBG        0.094068
+DHI       -0.040519
+PHM       -0.039796
+LEN       -0.027479
+ETFC       0.165450
+Average    0.030345
+dtype: float64
+
+2008-01
+
+Monmentum portfolio and their past performance:
+Long:
+FSLR    0.212046
+MOS     0.198738
+ISRG    0.157921
+PCLN    0.117261
+CMG     0.115422
+dtype: float64
+
+Short:
+FDO    -0.066192
+CBG    -0.068952
+LEN    -0.080277
+PHM    -0.084739
+ETFC   -0.137554
+dtype: float64
+
+Portfolio Returns:
+Long:
+FSLR      -0.305417
+MOS       -0.013405
+ISRG      -0.056614
+PCLN      -0.063693
+CMG       -0.161042
+Average   -0.120034
+dtype: float64
+
+Short:
+FDO       -0.155900
+CBG        0.066417
+LEN       -0.244186
+PHM       -0.520154
+ETFC      -0.448980
+Average   -0.260560
+dtype: float64
+
+2008-02
+
+Monmentum portfolio and their past performance:
+Long:
+MOS     0.222082
+FSLR    0.185244
+CF      0.141567
+MON     0.121831
+CNX     0.115123
+dtype: float64
+
+Short:
+URI    -0.077370
+SNDK   -0.080024
+LEN    -0.081386
+HAR    -0.091238
+ETFC   -0.130998
+dtype: float64
+
+Portfolio Returns:
+Long:
+MOS        0.197496
+FSLR       0.115898
+CF         0.110985
+MON        0.035166
+CNX        0.006053
+Average    0.093119
+dtype: float64
+
+Short:
+URI       -0.031496
+SNDK       0.163340
+LEN        0.211620
+HAR        0.125596
+ETFC       0.126761
+Average    0.119164
+dtype: float64
+
+2008-03
+
+Monmentum portfolio and their past performance:
+Long:
+MOS     0.205095
+FSLR    0.152244
+CNX     0.128559
+CF      0.122610
+PRGO    0.101236
+dtype: float64
+
+Short:
+XL     -0.077976
+SNDK   -0.085700
+VRTX   -0.087684
+HAR    -0.097690
+ETFC   -0.108554
+dtype: float64
+
+Portfolio Returns:
+Long:
+MOS       -0.093630
+FSLR       0.144778
+CNX       -0.083748
+CF        -0.115538
+PRGO       0.182780
+Average    0.006928
+dtype: float64
+
+Short:
+XL         0.081057
+SNDK      -0.074621
+VRTX      -0.445392
+HAR       -0.075548
+ETFC       0.032258
+Average   -0.096449
+dtype: float64
+
+2008-04
+
+Monmentum portfolio and their past performance:
+Long:
+MOS     0.121686
+PRGO    0.098600
+THC     0.087491
+EOG     0.082610
+FSLR    0.080017
+dtype: float64
+
+Short:
+C      -0.085693
+BRCM   -0.087572
+SNDK   -0.090345
+XL     -0.096488
+ETFC   -0.114820
+dtype: float64
+
+Portfolio Returns:
+Long:
+MOS        0.207984
+PRGO       0.066666
+THC        0.104274
+EOG        0.050473
+FSLR       0.108702
+Average    0.107620
+dtype: float64
+
+Short:
+C         -0.104167
+BRCM      -0.318293
+SNDK      -0.171982
+XL        -0.148543
+ETFC       0.002381
+Average   -0.148121
+dtype: float64
+
+2008-05
+
+Monmentum portfolio and their past performance:
+Long:
+MOS    0.146091
+RRC    0.113182
+HP     0.100737
+COG    0.100000
+CF     0.095823
+dtype: float64
+
+Short:
+HAR    -0.076857
+XL     -0.080633
+TSO    -0.080971
+GRMN   -0.083555
+DAL    -0.089898
+dtype: float64
+
+Portfolio Returns:
+Long:
+MOS        0.026601
+RRC       -0.008340
+HP         0.267428
+COG        0.097705
+CF         0.057256
+Average    0.088130
+dtype: float64
+
+Short:
+HAR       -0.050112
+XL         0.081582
+TSO       -0.068501
+GRMN      -0.172774
+DAL        0.337486
+Average    0.025536
+dtype: float64
+
+2008-06
+
+Monmentum portfolio and their past performance:
+Long:
+XEC    0.109925
+SWN    0.109768
+COG    0.100972
+R      0.094079
+HP     0.093840
+dtype: float64
+
+Short:
+UNH    -0.069124
+HAR    -0.070454
+TSO    -0.080959
+DAL    -0.093153
+GRMN   -0.093366
+dtype: float64
+
+Portfolio Returns:
+Long:
+XEC        0.027242
+SWN        0.083501
+COG        0.131123
+R         -0.063792
+HP         0.130579
+Average    0.061731
+dtype: float64
+
+Short:
+UNH        0.245955
+HAR        0.102406
+TSO        0.297170
+DAL        0.054701
+GRMN       0.150880
+Average    0.170222
+dtype: float64
+
+2008-07
+
+Monmentum portfolio and their past performance:
+Long:
+HP     0.136338
+PXD    0.123501
+NBR    0.118119
+XEC    0.116139
+SWN    0.114899
+dtype: float64
+
+Short:
+FITB   -0.073143
+UNH    -0.073513
+HBAN   -0.073773
+HUM    -0.074671
+DAL    -0.103479
+dtype: float64
+
+Portfolio Returns:
+Long:
+HP        -0.144651
+PXD       -0.245579
+NBR       -0.252899
+XEC       -0.259698
+SWN       -0.251597
+Average   -0.230885
+dtype: float64
+
+Short:
+FITB      -0.318568
+UNH       -0.097542
+HBAN      -0.217248
+HUM       -0.114050
+DAL       -0.392406
+Average   -0.227963
+dtype: float64
+
+2008-08
+
+Monmentum portfolio and their past performance:
+Long:
+VRTX    0.128605
+PXD     0.087119
+HP      0.078697
+EW      0.071171
+HAS     0.068161
+dtype: float64
+
+Short:
+XL    -0.086594
+KEY   -0.090583
+TSO   -0.091484
+RF    -0.094228
+DAL   -0.104860
+dtype: float64
+
+Portfolio Returns:
+Long:
+VRTX      -0.182569
+PXD       -0.009809
+HP        -0.151200
+EW        -0.064418
+HAS       -0.019092
+Average   -0.085417
+dtype: float64
+
+Short:
+XL        -0.054142
+KEY       -0.168091
+TSO       -0.133358
+RF        -0.159496
+DAL       -0.190909
+Average   -0.141199
+dtype: float64
+
+2008-09
+
+Monmentum portfolio and their past performance:
+Long:
+VRTX    0.116320
+FFIV    0.113698
+ALXN    0.101106
+JBL     0.082924
+AMGN    0.079288
+dtype: float64
+
+Short:
+WFM   -0.068206
+TSO   -0.076029
+AIG   -0.078770
+KEY   -0.079774
+RF    -0.091759
+dtype: float64
+
+Portfolio Returns:
+Long:
+VRTX       0.221474
+FFIV      -0.305872
+ALXN      -0.133245
+JBL       -0.432198
+AMGN      -0.053272
+Average   -0.140622
+dtype: float64
+
+Short:
+WFM       -0.097667
+TSO        0.057871
+AIG        0.818307
+KEY       -0.089682
+RF         0.046139
+Average    0.146994
+dtype: float64
+
+2008-10
+
+Monmentum portfolio and their past performance:
+Long:
+LEG     0.076274
+AMGN    0.071881
+FFIV    0.063309
+FDO     0.053242
+VAR     0.049063
+dtype: float64
+
+Short:
+GNW   -0.074220
+ICE   -0.074888
+GGP   -0.075173
+ADM   -0.080192
+AIG   -0.128548
+dtype: float64
+
+Portfolio Returns:
+Long:
+LEG       -0.234147
+AMGN       0.040047
+FFIV       0.042296
+FDO        0.102743
+VAR       -0.230994
+Average   -0.056011
+dtype: float64
+
+Short:
+GNW        0.265255
+ICE        0.009302
+GGP        0.744870
+ADM        0.014012
+AIG        0.458228
+Average    0.298333
+dtype: float64
+
+2008-11
+
+Monmentum portfolio and their past performance:
+Long:
+AMGN    0.045890
+FDO     0.030764
+DAL     0.021667
+WFC     0.021153
+TSCO    0.016646
+dtype: float64
+
+Short:
+MOS   -0.117512
+XL    -0.117571
+GNW   -0.126565
+GGP   -0.145379
+AIG   -0.156096
+dtype: float64
+
+Portfolio Returns:
+Long:
+AMGN      -0.110154
+FDO       -0.034893
+DAL       -0.309028
+WFC       -0.300624
+TSCO      -0.159090
+Average   -0.182758
+dtype: float64
+
+Short:
+MOS        0.318121
+XL         0.613725
+GNW        0.783019
+GGP        0.694370
+AIG        0.228972
+Average    0.527641
+dtype: float64
+
+2008-12
+
+Monmentum portfolio and their past performance:
+Long:
+DAL     0.083481
+FDO     0.052279
+AMGN    0.044732
+HBAN    0.038879
+TSCO    0.025108
+dtype: float64
+
+Short:
+FCX   -0.131389
+HIG   -0.140985
+GNW   -0.147301
+AIG   -0.156495
+GGP   -0.160828
+dtype: float64
+
+Portfolio Returns:
+Long:
+DAL        0.523869
+FDO        0.004896
+AMGN       0.077050
+HBAN       0.229742
+TSCO       0.044949
+Average    0.176101
+dtype: float64
+
+Short:
+FCX       -0.278813
+HIG       -1.585475
+GNW       -1.486957
+AIG       -0.024243
+GGP       -0.245613
+Average   -0.724220
+dtype: float64
+
+2009-01
+
+Monmentum portfolio and their past performance:
+Long:
+DAL     0.109570
+MNST    0.036462
+ORLY    0.034326
+HBAN    0.032543
+TSCO    0.028578
+dtype: float64
+
+Short:
+CBG   -0.130697
+FCX   -0.130795
+GNW   -0.141057
+AIG   -0.155345
+GGP   -0.158711
+dtype: float64
+
+Portfolio Returns:
+Long:
+DAL       -0.417148
+MNST      -0.032749
+ORLY      -0.074133
+HBAN      -0.746867
+TSCO      -0.066430
+Average   -0.267465
+dtype: float64
+
+Short:
+CBG        0.216518
+FCX        0.080403
+GNW        0.150350
+AIG        0.272189
+GGP        0.401404
+Average    0.224173
+dtype: float64
+
+2009-02
+
+Monmentum portfolio and their past performance:
+Long:
+MNST    0.042390
+DAL     0.039484
+FDO     0.022775
+VRTX    0.015496
+DLTR    0.012889
+dtype: float64
+
+Short:
+THC   -0.132459
+XL    -0.134415
+GNW   -0.138470
+AIG   -0.155793
+GGP   -0.158396
+dtype: float64
+
+Portfolio Returns:
+Long:
+MNST      -0.018711
+DAL       -0.350777
+FDO        0.001084
+VRTX      -0.168550
+DLTR      -0.083411
+Average   -0.124073
+dtype: float64
+
+Short:
+THC        0.081818
+XL        -0.178183
+GNW        0.551440
+AIG        0.658537
+GGP        0.458833
+Average    0.314489
+dtype: float64
+
+2009-03
+
+Monmentum portfolio and their past performance:
+Long:
+MNST    0.044198
+ADM     0.035237
+NFLX    0.034615
+VRTX    0.026800
+GMCR    0.016583
+dtype: float64
+
+Short:
+BAC    -0.139836
+GNW    -0.140510
+FITB   -0.146261
+AIG    -0.153986
+GGP    -0.161824
+dtype: float64
+
+Portfolio Returns:
+Long:
+MNST       0.095944
+ADM        0.123217
+NFLX       0.248035
+VRTX       0.045905
+GMCR       0.225375
+Average    0.147695
+dtype: float64
+
+Short:
+BAC       -0.947487
+GNW       -0.834862
+FITB      -0.741714
+AIG       -1.547618
+GGP       -0.413032
+Average   -0.896943
+dtype: float64
+
+2009-04
+
+Monmentum portfolio and their past performance:
+Long:
+NFLX    0.117136
+MYL     0.099419
+AN      0.096422
+ADM     0.083127
+ORLY    0.073980
+dtype: float64
+
+Short:
+GCI    -0.133125
+HBAN   -0.138232
+FITB   -0.138319
+C      -0.143776
+GGP    -0.149860
+dtype: float64
+
+Portfolio Returns:
+Long:
+NFLX       0.037555
+MYL       -0.029851
+AN         0.247674
+ADM       -0.100177
+ORLY       0.060734
+Average    0.043187
+dtype: float64
+
+Short:
+GCI       -0.908299
+HBAN      -0.415788
+FITB      -0.254075
+C         -0.108209
+GGP        0.046135
+Average   -0.328047
+dtype: float64
+
+2009-05
+
+Monmentum portfolio and their past performance:
+Long:
+AN      0.232036
+F       0.210784
+DRI     0.186826
+NFLX    0.182192
+DHI     0.151917
+dtype: float64
+
+Short:
+GCI    -0.101759
+FITB   -0.102907
+ZION   -0.108822
+C      -0.108826
+HBAN   -0.109875
+dtype: float64
+
+Portfolio Returns:
+Long:
+AN        -0.025244
+F          0.077329
+DRI        0.040698
+NFLX      -0.079586
+DHI       -0.248500
+Average   -0.047061
+dtype: float64
+
+Short:
+GCI       -0.160183
+FITB      -0.818179
+ZION      -0.329410
+C         -0.242424
+HBAN      -0.501860
+Average   -0.410411
+dtype: float64
+
+2009-06
+
+Monmentum portfolio and their past performance:
+Long:
+XL      0.252149
+FCX     0.208381
+THC     0.196059
+GMCR    0.195807
+MU      0.186578
+dtype: float64
+
+Short:
+ZION   -0.068391
+RF     -0.069147
+HBAN   -0.069720
+STI    -0.074357
+C      -0.084416
+dtype: float64
+
+Portfolio Returns:
+Long:
+XL         0.190927
+FCX       -0.129904
+THC       -0.249344
+GMCR       0.082163
+MU        -0.026316
+Average   -0.026495
+dtype: float64
+
+Short:
+ZION       0.201267
+RF         0.002778
+HBAN      -0.029721
+STI       -0.183333
+C          0.195122
+Average    0.037223
+dtype: float64
+
+2009-07
+
+Monmentum portfolio and their past performance:
+Long:
+XL      0.366228
+F       0.270032
+THC     0.269072
+GNW     0.253230
+GMCR    0.220456
+dtype: float64
+
+Short:
+RF    -0.051859
+KIM   -0.052583
+C     -0.054766
+DAL   -0.067372
+GCI   -0.077185
+dtype: float64
+
+Portfolio Returns:
+Long:
+XL         0.169657
+F          0.409475
+THC        0.468531
+GNW        0.021930
+GMCR       0.123376
+Average    0.238594
+dtype: float64
+
+Short:
+RF        -0.118390
+KIM        0.010785
+C         -0.070707
+DAL       -0.193163
+GCI       -1.172130
+Average   -0.308721
+dtype: float64
+
+2009-08
+
+Monmentum portfolio and their past performance:
+Long:
+FITB    0.507984
+XL      0.463719
+F       0.405325
+GNW     0.362647
+THC     0.334852
+dtype: float64
+
+Short:
+HUM   -0.034466
+VLO   -0.035093
+HRS   -0.037300
+KEY   -0.041275
+TSO   -0.042980
+dtype: float64
+
+Portfolio Returns:
+Long:
+FITB       0.065420
+XL         0.118549
+F         -0.130853
+GNW        0.301860
+THC        0.045238
+Average    0.080043
+dtype: float64
+
+Short:
+HUM       -0.046209
+VLO        0.014010
+HRS       -0.092174
+KEY        0.042090
+TSO       -0.055444
+Average   -0.027545
+dtype: float64
+
+2009-09
+
+Monmentum portfolio and their past performance:
+Long:
+GNW     0.751634
+FITB    0.714559
+GGP     0.662037
+THC     0.555422
+WYN     0.490503
+dtype: float64
+
+Short:
+GME    -0.009433
+AZO    -0.009808
+MNST   -0.013655
+HES    -0.015854
+KEY    -0.022287
+dtype: float64
+
+Portfolio Returns:
+Long:
+GNW        0.208791
+FITB      -0.078961
+GGP        0.882599
+THC        0.246014
+WYN        0.077509
+Average    0.267190
+dtype: float64
+
+Short:
+GME       -0.115781
+AZO       -0.004692
+MNST      -0.125824
+HES       -0.058397
+KEY        0.001627
+Average   -0.060613
+dtype: float64
+
+2009-10
+
+Monmentum portfolio and their past performance:
+Long:
+GNW     0.707002
+GGP     0.621795
+THC     0.399425
+GCI     0.319292
+FITB    0.292806
+dtype: float64
+
+Short:
+AZO   -0.015656
+MCO   -0.016307
+KEY   -0.024574
+GME   -0.025897
+FDO   -0.028088
+dtype: float64
+
+Portfolio Returns:
+Long:
+GNW       -0.075455
+GGP       -0.172045
+THC       -0.031079
+GCI       -0.196707
+FITB      -0.023306
+Average   -0.099718
+dtype: float64
+
+Short:
+AZO        0.064552
+MCO       -0.132908
+KEY        0.096091
+GME        0.070330
+FDO       -0.070044
+Average    0.005604
+dtype: float64
+
+2009-11
+
+Monmentum portfolio and their past performance:
+Long:
+GGP    0.547619
+GCI    0.283292
+GNW    0.229391
+THC    0.186771
+URI    0.150156
+dtype: float64
+
+Short:
+MNST   -0.015869
+AZO    -0.016710
+MON    -0.023665
+MCO    -0.033383
+FSLR   -0.033839
+dtype: float64
+
+Portfolio Returns:
+Long:
+GGP        0.792212
+GCI        0.025615
+GNW        0.101278
+THC       -0.100000
+URI        0.012061
+Average    0.166233
+dtype: float64
+
+Short:
+MNST       0.022222
+AZO       -0.109969
+MON       -0.208407
+MCO       -0.017288
+FSLR      -0.002629
+Average   -0.063214
+dtype: float64
+
+2009-12
+
+Monmentum portfolio and their past performance:
+Long:
+GCI    0.280214
+GGP    0.210526
+HIG    0.154170
+HAR    0.148109
+JBL    0.146901
+dtype: float64
+
+Short:
+FLR    -0.021838
+BSX    -0.022490
+DNR    -0.026203
+EA     -0.028908
+FSLR   -0.051393
+dtype: float64
+
+Portfolio Returns:
+Long:
+GCI        0.538683
+GGP        0.696096
+HIG       -0.025327
+HAR       -0.031326
+JBL        0.331575
+Average    0.301940
+dtype: float64
+
+Short:
+FLR       -0.075880
+BSX       -0.067536
+DNR       -0.156920
+EA        -0.068905
+FSLR      -0.110146
+Average   -0.095877
+dtype: float64
+
+2010-01
+
+Monmentum portfolio and their past performance:
+Long:
+GGP     0.812325
+GCI     0.305833
+AIG     0.196386
+CBS     0.166924
+PCLN    0.150009
+dtype: float64
+
+Short:
+FSLR   -0.021940
+FLR    -0.022587
+BSX    -0.024299
+IRM    -0.033468
+EA     -0.033569
+dtype: float64
+
+Portfolio Returns:
+Long:
+GGP       -0.222609
+GCI       -0.021499
+AIG       -0.198394
+CBS       -0.067368
+PCLN      -0.088230
+Average   -0.119620
+dtype: float64
+
+Short:
+FSLR       0.132659
+FLR        0.001087
+BSX        0.065483
+IRM       -0.003932
+EA         0.077686
+Average    0.054597
+dtype: float64
+
+2010-02
+
+Monmentum portfolio and their past performance:
+Long:
+GGP     0.539106
+GCI     0.171276
+DAL     0.131954
+SNDK    0.116647
+PXD     0.111017
+dtype: float64
+
+Short:
+STT   -0.026728
+GT    -0.028210
+IRM   -0.030334
+C     -0.030961
+BSX   -0.031676
+dtype: float64
+
+Portfolio Returns:
+Long:
+GGP        0.459732
+GCI        0.060586
+DAL        0.042756
+SNDK       0.242575
+PXD        0.028578
+Average    0.166845
+dtype: float64
+
+Short:
+STT       -0.018343
+GT         0.020633
+IRM       -0.130983
+C         -0.014970
+BSX        0.077197
+Average   -0.013293
+dtype: float64
+
+2010-03
+
+Monmentum portfolio and their past performance:
+Long:
+GGP     0.344173
+EL      0.106738
+GCI     0.096315
+F       0.093484
+PRGO    0.085767
+dtype: float64
+
+Short:
+OI    -0.040762
+C     -0.044979
+URI   -0.045882
+BSX   -0.047059
+AIG   -0.064129
+dtype: float64
+
+Portfolio Returns:
+Long:
+GGP        0.222222
+EL         0.055019
+GCI        0.050972
+F          0.017728
+PRGO       0.154808
+Average    0.100150
+dtype: float64
+
+Short:
+OI        -0.215165
+C         -0.233038
+URI       -0.188462
+BSX        0.069498
+AIG       -0.323119
+Average   -0.178057
+dtype: float64
+
+2010-04
+
+Monmentum portfolio and their past performance:
+Long:
+GGP     0.363636
+F       0.133333
+EL      0.100761
+DAL     0.098623
+SNDK    0.092785
+dtype: float64
+
+Short:
+BSX    -0.035499
+AES    -0.035568
+AIG    -0.035849
+GME    -0.039492
+FSLR   -0.041783
+dtype: float64
+
+Portfolio Returns:
+Long:
+GGP        0.052038
+F          0.053049
+EL         0.008387
+DAL       -0.142954
+SNDK       0.253817
+Average    0.044867
+dtype: float64
+
+Short:
+BSX        0.051176
+AES       -0.067256
+AIG       -0.159191
+GME       -0.122322
+FSLR      -0.211129
+Average   -0.101744
+dtype: float64
+
+2010-05
+
+Monmentum portfolio and their past performance:
+Long:
+GGP     0.364826
+ZION    0.159591
+SNDK    0.141638
+DAL     0.127309
+GCI     0.112141
+dtype: float64
+
+Short:
+MON   -0.018106
+BLK   -0.019594
+AES   -0.019969
+BSX   -0.023176
+MSI   -0.027078
+dtype: float64
+
+Portfolio Returns:
+Long:
+GGP       -0.166866
+ZION      -0.201437
+SNDK       0.034007
+DAL        0.075457
+GCI       -0.159052
+Average   -0.083578
+dtype: float64
+
+Short:
+MON        0.230393
+BLK        0.121447
+AES        0.214759
+BSX        0.129738
+MSI        0.056338
+Average    0.150535
+dtype: float64
+
+2010-06
+
+Monmentum portfolio and their past performance:
+Long:
+ZION    0.163439
+NFLX    0.136258
+HBAN    0.117560
+SNDK    0.115463
+CMG     0.094181
+dtype: float64
+
+Short:
+BAX   -0.039916
+DO    -0.040641
+BSX   -0.042192
+BLK   -0.043484
+MON   -0.052010
+dtype: float64
+
+Portfolio Returns:
+Long:
+ZION      -0.061339
+NFLX       0.022090
+HBAN      -0.082808
+SNDK      -0.062889
+CMG       -0.018265
+Average   -0.040642
+dtype: float64
+
+Short:
+BAX        0.002622
+DO        -0.091096
+BSX        0.011725
+BLK        0.134946
+MON        0.055772
+Average    0.022794
+dtype: float64
+
+2010-07
+
+Monmentum portfolio and their past performance:
+Long:
+NFLX    0.200813
+AKAM    0.108610
+SNDK    0.092612
+CMG     0.089194
+PRGO    0.070350
+dtype: float64
+
+Short:
+BSX   -0.058480
+DO    -0.061200
+APC   -0.061620
+MON   -0.065156
+RIG   -0.075665
+dtype: float64
+
+Portfolio Returns:
+Long:
+NFLX      -0.070947
+AKAM      -0.078067
+SNDK       0.074461
+CMG        0.085382
+PRGO      -0.013394
+Average   -0.000513
+dtype: float64
+
+Short:
+BSX        0.061017
+DO         0.019825
+APC       -0.433145
+MON       -0.301892
+RIG       -0.036613
+Average   -0.138161
+dtype: float64
+
+2010-08
+
+Monmentum portfolio and their past performance:
+Long:
+NFLX    0.128330
+AKAM    0.109900
+SNDK    0.094857
+FFIV    0.083095
+URI     0.075839
+dtype: float64
+
+Short:
+MON    -0.047547
+STX    -0.048842
+APC    -0.051409
+NVDA   -0.063066
+RIG    -0.068936
+dtype: float64
+
+Portfolio Returns:
+Long:
+NFLX       0.324205
+AKAM       0.280914
+SNDK      -0.231737
+FFIV       0.024153
+URI       -0.107704
+Average    0.057966
+dtype: float64
+
+Short:
+MON        0.094127
+STX        0.169373
+APC        0.084100
+NVDA      -0.023965
+RIG       -0.072021
+Average    0.050323
+dtype: float64
+
+2010-09
+
+Monmentum portfolio and their past performance:
+Long:
+NFLX    0.121692
+URI     0.082435
+AKAM    0.070233
+FFIV    0.069157
+CRM     0.065792
+dtype: float64
+
+Short:
+BLK    -0.051256
+RIG    -0.060509
+WDC    -0.060994
+STX    -0.070295
+NVDA   -0.075445
+dtype: float64
+
+Portfolio Returns:
+Long:
+NFLX       0.146394
+URI        0.253143
+AKAM       0.035257
+FFIV       0.138307
+CRM       -0.037801
+Average    0.107060
+dtype: float64
+
+Short:
+BLK       -0.168998
+RIG       -0.184429
+WDC       -0.100935
+STX       -0.088454
+NVDA      -0.207448
+Average   -0.150053
+dtype: float64
+
+2010-10
+
+Monmentum portfolio and their past performance:
+Long:
+NFLX    0.111291
+AKAM    0.082940
+FFIV    0.080284
+CRM     0.070108
+CTXS    0.063884
+dtype: float64
+
+Short:
+MAS    -0.055997
+WDC    -0.057849
+MU     -0.058012
+NVDA   -0.060277
+STX    -0.069042
+dtype: float64
+
+Portfolio Returns:
+Long:
+NFLX       0.082180
+AKAM       0.029799
+FFIV       0.126634
+CRM        0.015625
+CTXS      -0.054901
+Average    0.039867
+dtype: float64
+
+Short:
+MAS        0.032220
+WDC       -0.154690
+MU        -0.116598
+NVDA      -0.060792
+STX       -0.244654
+Average   -0.108903
+dtype: float64
+
+2010-11
+
+Monmentum portfolio and their past performance:
+Long:
+PCLN    0.106893
+CF      0.095318
+NFLX    0.094937
+NTAP    0.082086
+FFIV    0.076582
+dtype: float64
+
+Short:
+MAS   -0.035705
+BAC   -0.040886
+BBT   -0.046380
+VMC   -0.048904
+PHM   -0.049106
+dtype: float64
+
+Portfolio Returns:
+Long:
+PCLN       0.077692
+CF         0.022647
+NFLX       0.195794
+NTAP      -0.020458
+FFIV       0.194122
+Average    0.093960
+dtype: float64
+
+Short:
+MAS       -0.086511
+BAC        0.017364
+BBT       -0.044415
+VMC       -0.166620
+PHM        0.160463
+Average   -0.023944
+dtype: float64
+
+2010-12
+
+Monmentum portfolio and their past performance:
+Long:
+PCLN    0.195299
+CF      0.150319
+FOSL    0.124901
+FFIV    0.124847
+URI     0.122058
+dtype: float64
+
+Short:
+GNW    -0.033833
+ISRG   -0.034047
+WHR    -0.035771
+BAC    -0.039366
+PHM    -0.040443
+dtype: float64
+
+Portfolio Returns:
+Long:
+PCLN       0.031977
+CF         0.098275
+FOSL       0.065055
+FFIV      -0.033319
+URI        0.131058
+Average    0.058609
+dtype: float64
+
+Short:
+GNW       -0.123128
+ISRG      -0.010101
+WHR       -0.217631
+BAC       -0.256864
+PHM       -0.189604
+Average   -0.159466
+dtype: float64
+
+2011-01
+
+Monmentum portfolio and their past performance:
+Long:
+URI     0.176353
+LYB     0.157515
+PCLN    0.153909
+FOSL    0.146432
+NOV     0.128530
+dtype: float64
+
+Short:
+BAC    -0.020372
+CSCO   -0.023056
+NRG    -0.026025
+PHM    -0.027610
+ISRG   -0.031862
+dtype: float64
+
+Portfolio Returns:
+Long:
+URI        0.203760
+LYB        0.065972
+PCLN       0.052742
+FOSL       0.004953
+NOV        0.108120
+Average    0.087109
+dtype: float64
+
+Short:
+BAC       -0.008457
+CSCO      -0.047828
+NRG       -0.053454
+PHM       -0.041130
+ISRG      -0.236357
+Average   -0.077445
+dtype: float64
+
+2011-02
+
+Monmentum portfolio and their past performance:
+Long:
+NVDA    0.215262
+URI     0.174412
+LYB     0.145683
+NOV     0.122385
+JBL     0.119280
+dtype: float64
+
+Short:
+CPB    -0.005656
+ABT    -0.006456
+CSCO   -0.010189
+ETR    -0.010565
+NRG    -0.011325
+dtype: float64
+
+Portfolio Returns:
+Long:
+NVDA      -0.115243
+URI        0.098438
+LYB        0.005972
+NOV        0.039541
+JBL        0.021687
+Average    0.010079
+dtype: float64
+
+Short:
+CPB        0.021574
+ABT       -0.050188
+CSCO       0.135538
+ETR        0.029447
+NRG        0.065581
+Average    0.040390
+dtype: float64
+
+2011-03
+
+Monmentum portfolio and their past performance:
+Long:
+URI     0.208394
+NVDA    0.200842
+NOV     0.146009
+TSO     0.132083
+BHI     0.120533
+dtype: float64
+
+Short:
+MRK    -0.014130
+ABT    -0.014297
+PHM    -0.020883
+AKAM   -0.023551
+EXPE   -0.027119
+dtype: float64
+
+Portfolio Returns:
+Long:
+URI        0.117063
+NVDA      -0.159354
+NOV        0.048830
+TSO        0.176164
+BHI        0.046236
+Average    0.045788
+dtype: float64
+
+Short:
+MRK       -0.030697
+ABT       -0.039368
+PHM       -0.124812
+AKAM      -0.006424
+EXPE      -0.134199
+Average   -0.067100
+dtype: float64
+
+2011-04
+
+Monmentum portfolio and their past performance:
+Long:
+URI     0.147247
+TSO     0.141461
+GMCR    0.140832
+NVDA    0.110392
+NOV     0.105368
+dtype: float64
+
+Short:
+AVP    -0.027968
+AKAM   -0.036174
+CSCO   -0.037676
+EXPE   -0.038672
+BBY    -0.042178
+dtype: float64
+
+Portfolio Returns:
+Long:
+URI       -0.134103
+TSO       -0.027737
+GMCR       0.024549
+NVDA       0.084066
+NOV       -0.073748
+Average   -0.025395
+dtype: float64
+
+Short:
+AVP       -0.076839
+AKAM       0.089628
+CSCO      -0.031690
+EXPE      -0.139712
+BBY       -0.103540
+Average   -0.052431
+dtype: float64
+
+2011-05
+
+Monmentum portfolio and their past performance:
+Long:
+GMCR    0.156032
+REGN    0.136784
+TSO     0.135837
+COG     0.098485
+THC     0.096899
+dtype: float64
+
+Short:
+CSCO   -0.030929
+FFIV   -0.035326
+AKAM   -0.041568
+DAL    -0.051424
+BBY    -0.051934
+dtype: float64
+
+Portfolio Returns:
+Long:
+GMCR       0.204039
+REGN       0.078942
+TSO       -0.100799
+COG       -0.001039
+THC       -0.058296
+Average    0.024570
+dtype: float64
+
+Short:
+CSCO       0.068259
+FFIV      -0.091925
+AKAM       0.030383
+DAL        0.074569
+BBY        0.015262
+Average    0.019310
+dtype: float64
+
+2011-06
+
+Monmentum portfolio and their past performance:
+Long:
+GMCR    0.210125
+REGN    0.116940
+VRTX    0.102527
+GT      0.092825
+COG     0.081502
+dtype: float64
+
+Short:
+FFIV   -0.038274
+BRCM   -0.038952
+HCBK   -0.039134
+AIG    -0.047465
+AKAM   -0.055181
+dtype: float64
+
+Portfolio Returns:
+Long:
+GMCR       0.130788
+REGN      -0.003451
+VRTX      -0.024896
+GT         0.024289
+COG        0.198039
+Average    0.064954
+dtype: float64
+
+Short:
+FFIV      -0.034369
+BRCM       0.019937
+HCBK       0.052813
+AIG       -0.068806
+AKAM       0.051220
+Average    0.004159
+dtype: float64
+
+2011-07
+
+Monmentum portfolio and their past performance:
+Long:
+GMCR    0.221590
+REGN    0.107454
+COG     0.090783
+FOSL    0.090491
+BIIB    0.075993
+dtype: float64
+
+Short:
+CSC    -0.045007
+HCBK   -0.051546
+SPLS   -0.054813
+AIG    -0.062247
+AKAM   -0.063403
+dtype: float64
+
+Portfolio Returns:
+Long:
+GMCR       0.194466
+REGN      -0.088139
+COG        0.119774
+FOSL       0.039193
+BIIB      -0.051613
+Average    0.042736
+dtype: float64
+
+Short:
+CSC        0.102190
+HCBK       0.015757
+SPLS       0.040202
+AIG        0.046364
+AKAM       0.245157
+Average    0.089934
+dtype: float64
+
+2011-08
+
+Monmentum portfolio and their past performance:
+Long:
+GMCR    0.215177
+FOSL    0.107697
+COG     0.107258
+REGN    0.097369
+BIIB    0.095981
+dtype: float64
+
+Short:
+GNW    -0.049071
+BAC    -0.049200
+AKAM   -0.052750
+MU     -0.054222
+NVDA   -0.064052
+dtype: float64
+
+Portfolio Returns:
+Long:
+GMCR      -0.029837
+FOSL      -0.246568
+COG        0.000989
+REGN       0.129130
+BIIB      -0.090282
+Average   -0.047313
+dtype: float64
+
+Short:
+GNW        0.176617
+BAC        0.192686
+AKAM       0.097181
+MU         0.225371
+NVDA       0.088538
+Average    0.156079
+dtype: float64
+
+2011-09
+
+Monmentum portfolio and their past performance:
+Long:
+GMCR    0.128000
+COG     0.079526
+MNST    0.069165
+REGN    0.058285
+EXPE    0.056727
+dtype: float64
+
+Short:
+MU     -0.073579
+BAC    -0.074020
+URI    -0.078922
+GNW    -0.080749
+JNPR   -0.081382
+dtype: float64
+
+Portfolio Returns:
+Long:
+GMCR      -0.163037
+COG       -0.222045
+MNST      -0.051380
+REGN      -0.067777
+EXPE      -0.195033
+Average   -0.139854
+dtype: float64
+
+Short:
+MU         0.245645
+BAC        0.300885
+URI        0.037621
+GNW        0.200906
+JNPR       0.192053
+Average    0.195422
+dtype: float64
+
+2011-10
+
+Monmentum portfolio and their past performance:
+Long:
+GMCR    0.103074
+MNST    0.065813
+REGN    0.055315
+DLTR    0.050822
+COG     0.049123
+dtype: float64
+
+Short:
+RF     -0.078757
+NBR    -0.078787
+JNPR   -0.080449
+CBG    -0.082173
+GNW    -0.089110
+dtype: float64
+
+Portfolio Returns:
+Long:
+GMCR      -0.290083
+MNST       0.077357
+REGN      -0.008479
+DLTR       0.074919
+COG        0.325538
+Average    0.035850
+dtype: float64
+
+Short:
+RF        -0.225164
+NBR       -0.450596
+JNPR      -0.362997
+CBG       -0.302521
+GNW       -0.103970
+Average   -0.289050
+dtype: float64
+
+2011-11
+
+Monmentum portfolio and their past performance:
+Long:
+ALXN    0.064249
+VFC     0.056400
+MNST    0.052248
+DLTR    0.050252
+RRC     0.043648
+dtype: float64
+
+Short:
+RF     -0.079764
+MU     -0.080510
+GNW    -0.081136
+NFLX   -0.093635
+FSLR   -0.094319
+dtype: float64
+
+Portfolio Returns:
+Long:
+ALXN       0.045118
+VFC        0.018819
+MNST       0.071570
+DLTR       0.035985
+RRC        0.039435
+Average    0.042186
+dtype: float64
+
+Short:
+RF        -0.113512
+MU        -0.113422
+GNW       -0.119863
+NFLX       0.161319
+FSLR      -0.016460
+Average   -0.040388
+dtype: float64
+
+2011-12
+
+Monmentum portfolio and their past performance:
+Long:
+ALXN    0.069601
+COG     0.062696
+VFC     0.056982
+RRC     0.051414
+MA      0.050965
+dtype: float64
+
+Short:
+CVC    -0.068504
+HSP    -0.072386
+BAC    -0.075228
+FSLR   -0.103957
+NFLX   -0.115416
+dtype: float64
+
+Portfolio Returns:
+Long:
+ALXN       0.018914
+COG       -0.104686
+VFC       -0.055819
+RRC       -0.142944
+MA        -0.033048
+Average   -0.063517
+dtype: float64
+
+Short:
+CVC        0.010709
+HSP       -0.108519
+BAC       -0.048824
+FSLR       0.247319
+NFLX      -0.075480
+Average    0.005041
+dtype: float64
+
+2012-01
+
+Monmentum portfolio and their past performance:
+Long:
+ALXN    0.044935
+ORLY    0.043729
+DG      0.038062
+FAST    0.036858
+ROST    0.034925
+dtype: float64
+
+Short:
+HSP    -0.075877
+GMCR   -0.077123
+BAC    -0.077154
+FSLR   -0.115359
+NFLX   -0.125126
+dtype: float64
+
+Portfolio Returns:
+Long:
+ALXN       0.096075
+ORLY       0.049008
+DG         0.030185
+FAST       0.079571
+ROST       0.083316
+Average    0.067631
+dtype: float64
+
+Short:
+HSP       -0.100128
+GMCR      -0.151352
+BAC       -0.268966
+FSLR      -0.192512
+NFLX      -0.702243
+Average   -0.283040
+dtype: float64
+
+2012-02
+
+Monmentum portfolio and their past performance:
+Long:
+URI     0.168383
+STX     0.114164
+PHM     0.097403
+LEN     0.084391
+AKAM    0.080586
+dtype: float64
+
+Short:
+HSP    -0.045900
+EXPE   -0.046214
+GMCR   -0.083737
+NFLX   -0.096844
+FSLR   -0.102198
+dtype: float64
+
+Portfolio Returns:
+Long:
+URI        0.104443
+STX        0.082005
+PHM        0.097063
+LEN        0.071003
+AKAM       0.121525
+Average    0.095208
+dtype: float64
+
+Short:
+HSP       -0.029275
+EXPE      -0.034619
+GMCR      -0.253217
+NFLX       0.083110
+FSLR       0.287254
+Average    0.010651
+dtype: float64
+
+2012-03
+
+Monmentum portfolio and their past performance:
+Long:
+URI     0.237278
+STX     0.235830
+PHM     0.167064
+AKAM    0.116503
+LEN     0.112137
+dtype: float64
+
+Short:
+NRG    -0.039443
+NFLX   -0.047486
+FTR    -0.053427
+GMCR   -0.062922
+FSLR   -0.081110
+dtype: float64
+
+Portfolio Returns:
+Long:
+URI        0.040932
+STX        0.021930
+PHM        0.009313
+AKAM       0.023120
+LEN        0.136441
+Average    0.046347
+dtype: float64
+
+Short:
+NRG        0.093023
+NFLX      -0.010820
+FTR        0.028940
+GMCR       0.317066
+FSLR       0.193623
+Average    0.124366
+dtype: float64
+
+2012-04
+
+Monmentum portfolio and their past performance:
+Long:
+STX     0.199317
+PHM     0.167046
+URI     0.160874
+REGN    0.143360
+LYB     0.117711
+dtype: float64
+
+Short:
+NRG    -0.034338
+FTR    -0.040724
+EA     -0.046149
+GMCR   -0.051577
+FSLR   -0.084710
+dtype: float64
+
+Portfolio Returns:
+Long:
+STX        0.150280
+PHM        0.156862
+URI        0.012429
+REGN       0.117970
+LYB       -0.038367
+Average    0.079835
+dtype: float64
+
+Short:
+NRG       -0.087820
+FTR        0.053864
+EA         0.070018
+GMCR      -0.083660
+FSLR       0.249083
+Average    0.040297
+dtype: float64
+
+2012-05
+
+Monmentum portfolio and their past performance:
+Long:
+REGN    0.217040
+URI     0.119435
+STX     0.115232
+RF      0.101925
+AAPL    0.095821
+dtype: float64
+
+Short:
+NRG    -0.042703
+SWN    -0.044383
+NEM    -0.046424
+EA     -0.053159
+FSLR   -0.090219
+dtype: float64
+
+Portfolio Returns:
+Long:
+REGN      -0.077765
+URI       -0.305580
+STX       -0.318282
+RF        -0.140351
+AAPL      -0.036315
+Average   -0.175658
+dtype: float64
+
+Short:
+NRG        0.125516
+SWN        0.154960
+NEM       -0.046826
+EA         0.155727
+FSLR       0.361021
+Average    0.150079
+dtype: float64
+
+2012-06
+
+Monmentum portfolio and their past performance:
+Long:
+REGN    0.234651
+VRTX    0.140275
+STX     0.139239
+KORS    0.098742
+RF      0.093567
+dtype: float64
+
+Short:
+SNDK   -0.050355
+EA     -0.052607
+CHK    -0.053084
+GMCR   -0.075441
+FSLR   -0.099783
+dtype: float64
+
+Portfolio Returns:
+Long:
+REGN      -0.025579
+VRTX      -0.067159
+STX        0.129715
+KORS       0.135858
+RF         0.166850
+Average    0.067937
+dtype: float64
+
+Short:
+SNDK      -0.181876
+EA         0.064024
+CHK       -0.202182
+GMCR       0.045495
+FSLR      -0.298216
+Average   -0.114551
+dtype: float64
+
+2012-07
+
+Monmentum portfolio and their past performance:
+Long:
+VRTX    0.101995
+REGN    0.095649
+EXPE    0.094841
+TRIP    0.082559
+MNST    0.080816
+dtype: float64
+
+Short:
+GNW    -0.051671
+NFLX   -0.054561
+EA     -0.054608
+GMCR   -0.093536
+FSLR   -0.107315
+dtype: float64
+
+Portfolio Returns:
+Long:
+VRTX      -0.115191
+REGN       0.109722
+EXPE       0.146574
+TRIP      -0.205000
+MNST      -0.132656
+Average   -0.039310
+dtype: float64
+
+Short:
+GNW        0.215412
+NFLX       0.196758
+EA         0.048860
+GMCR       0.163084
+FSLR       0.031414
+Average    0.131105
+dtype: float64
+
+2012-08
+
+Monmentum portfolio and their past performance:
+Long:
+EXPE    0.072504
+VRTX    0.064266
+EW      0.061758
+TRIP    0.059509
+LEN     0.056071
+dtype: float64
+
+Short:
+NFLX   -0.062083
+FOSL   -0.062192
+GNW    -0.070205
+FSLR   -0.107672
+GMCR   -0.116854
+dtype: float64
+
+Portfolio Returns:
+Long:
+EXPE      -0.075900
+VRTX       0.109235
+EW         0.041879
+TRIP      -0.052502
+LEN        0.134277
+Average    0.031398
+dtype: float64
+
+Short:
+NFLX      -0.026239
+FOSL      -0.216881
+GNW       -0.171875
+FSLR      -0.278378
+GMCR      -0.339475
+Average   -0.206570
+dtype: float64
+
+2012-09
+
+Monmentum portfolio and their past performance:
+Long:
+EXPE    0.103461
+PHM     0.068639
+EW      0.067516
+STZ     0.061396
+GPS     0.060612
+dtype: float64
+
+Short:
+SEE    -0.049036
+FOSL   -0.058328
+GNW    -0.073070
+NFLX   -0.077080
+GMCR   -0.094418
+dtype: float64
+
+Portfolio Returns:
+Long:
+EXPE       0.095211
+PHM        0.113455
+EW         0.033864
+STZ       -0.016556
+GPS        0.008098
+Average    0.046814
+dtype: float64
+
+Short:
+SEE       -0.110481
+FOSL      -0.023557
+GNW        0.022857
+NFLX      -0.002146
+GMCR       0.028345
+Average   -0.016996
+dtype: float64
+
+2012-10
+
+Monmentum portfolio and their past performance:
+Long:
+PHM     0.133847
+TSO     0.116419
+EXPE    0.115556
+VRTX    0.083907
+STZ     0.083485
+dtype: float64
+
+Short:
+HPQ    -0.044120
+AVP    -0.045013
+FOSL   -0.056589
+GMCR   -0.063870
+NFLX   -0.073189
+dtype: float64
+
+Portfolio Returns:
+Long:
+PHM        0.161332
+TSO       -0.158605
+EXPE       0.048121
+VRTX      -0.105599
+STZ        0.095194
+Average    0.008089
+dtype: float64
+
+Short:
+HPQ        0.186520
+AVP        0.023529
+FOSL      -0.091247
+GMCR      -0.129987
+NFLX      -0.386084
+Average   -0.079454
+dtype: float64
+
+2012-11
+
+Monmentum portfolio and their past performance:
+Long:
+STZ     0.130069
+TSO     0.125732
+PHM     0.125045
+MPC     0.081882
+FSLR    0.079175
+dtype: float64
+
+Short:
+MNST   -0.040348
+TRIP   -0.041617
+CMG    -0.053079
+HPQ    -0.058310
+FB     -0.058833
+dtype: float64
+
+Portfolio Returns:
+Long:
+STZ        0.004192
+TSO        0.148152
+PHM       -0.046682
+MPC        0.109310
+FSLR       0.111111
+Average    0.065217
+dtype: float64
+
+Short:
+MNST      -0.153145
+TRIP      -0.281877
+CMG       -0.001899
+HPQ        0.080714
+FB        -0.274870
+Average   -0.126215
+dtype: float64
+
+2012-12
+
+Monmentum portfolio and their past performance:
+Long:
+PHM     0.142024
+FSLR    0.126367
+STZ     0.122851
+WHR     0.116502
+TSO     0.115831
+dtype: float64
+
+Short:
+DLTR   -0.042467
+BBY    -0.046188
+CMG    -0.056642
+HPQ    -0.061131
+MNST   -0.062419
+dtype: float64
+
+Portfolio Returns:
+Long:
+PHM        0.097345
+FSLR       0.163273
+STZ        0.045366
+WHR        0.061509
+TSO        0.096883
+Average    0.092875
+dtype: float64
+
+Short:
+DLTR       0.034833
+BBY        0.073166
+CMG       -0.141460
+HPQ       -0.178212
+MNST      -0.045297
+Average   -0.051394
+dtype: float64
+
+2013-01
+
+Monmentum portfolio and their past performance:
+Long:
+FSLR    0.184540
+GMCR    0.173861
+CSC     0.111845
+GME     0.100891
+THC     0.100293
+dtype: float64
+
+Short:
+WU     -0.035144
+DLTR   -0.039323
+HPQ    -0.040965
+MNST   -0.041412
+BBY    -0.060136
+dtype: float64
+
+Portfolio Returns:
+Long:
+FSLR      -0.114411
+GMCR       0.078869
+CSC        0.028916
+GME       -0.037802
+THC        0.177898
+Average    0.026694
+dtype: float64
+
+Short:
+WU        -0.045058
+DLTR      -0.005514
+HPQ       -0.095872
+MNST       0.121335
+BBY       -0.364099
+Average   -0.077841
+dtype: float64
+
+2013-02
+
+Monmentum portfolio and their past performance:
+Long:
+NFLX    0.154401
+THC     0.127954
+GNW     0.124748
+GMCR    0.124401
+PHM     0.095622
+dtype: float64
+
+Short:
+MNST   -0.031351
+WU     -0.033933
+DLTR   -0.034479
+AAPL   -0.036832
+BBY    -0.037178
+dtype: float64
+
+Portfolio Returns:
+Long:
+NFLX       0.149090
+THC        0.003814
+GNW       -0.083871
+GMCR       0.042412
+PHM       -0.054054
+Average    0.011478
+dtype: float64
+
+Short:
+MNST      -0.063169
+WU         0.008345
+DLTR      -0.149302
+AAPL       0.045503
+BBY       -0.065176
+Average   -0.044760
+dtype: float64
+
+2013-03
+
+Monmentum portfolio and their past performance:
+Long:
+NFLX    0.370802
+THC     0.114069
+GMCR    0.109681
+GNW     0.097321
+DAL     0.091731
+dtype: float64
+
+Short:
+VRTX   -0.032458
+ALXN   -0.032538
+NEM    -0.033554
+WU     -0.035882
+AAPL   -0.053935
+dtype: float64
+
+Portfolio Returns:
+Long:
+NFLX      -0.036648
+THC        0.215805
+GMCR       0.175015
+GNW        0.158451
+DAL        0.096491
+Average    0.121823
+dtype: float64
+
+Short:
+VRTX      -0.169591
+ALXN      -0.101763
+NEM       -0.056110
+WU        -0.036990
+AAPL       0.003624
+Average   -0.072166
+dtype: float64
+
+2013-04
+
+Monmentum portfolio and their past performance:
+Long:
+NFLX    0.301282
+GMCR    0.216377
+GNW     0.136364
+THC     0.135219
+MU      0.106702
+dtype: float64
+
+Short:
+FCX    -0.028872
+TDC    -0.034020
+NEM    -0.043038
+NFX    -0.044174
+AAPL   -0.049437
+dtype: float64
+
+Portfolio Returns:
+Long:
+NFLX       0.167078
+GMCR      -0.006612
+GNW        0.040527
+THC       -0.077083
+MU        -0.019190
+Average    0.020944
+dtype: float64
+
+Short:
+FCX        0.053591
+TDC        0.099614
+NEM        0.212612
+NFX        0.010032
+AAPL      -0.024201
+Average    0.070330
+dtype: float64
+
+2013-05
+
+Monmentum portfolio and their past performance:
+Long:
+NFLX    0.214039
+GMCR    0.173951
+BBY     0.123172
+GNW     0.117371
+MU      0.110819
+dtype: float64
+
+Short:
+FFIV   -0.022773
+TDC    -0.024878
+FCX    -0.032790
+NEM    -0.038533
+AAPL   -0.041857
+dtype: float64
+
+Portfolio Returns:
+Long:
+NFLX       0.042553
+GMCR       0.284113
+BBY        0.056371
+GNW        0.056475
+MU         0.275000
+Average    0.142902
+dtype: float64
+
+Short:
+FFIV      -0.067998
+TDC       -0.082976
+FCX       -0.036561
+NEM       -0.070267
+AAPL      -0.032811
+Average   -0.058123
+dtype: float64
+
+2013-06
+
+Monmentum portfolio and their past performance:
+Long:
+NFLX    0.250410
+BBY     0.199205
+VRTX    0.149545
+GMCR    0.128773
+MU      0.112661
+dtype: float64
+
+Short:
+GRMN   -0.020305
+AAPL   -0.025324
+FFIV   -0.025815
+NEM    -0.044002
+EW     -0.045774
+dtype: float64
+
+Portfolio Returns:
+Long:
+NFLX       0.010407
+BBY        0.093705
+VRTX       0.013866
+GMCR       0.052244
+MU         0.216539
+Average    0.077352
+dtype: float64
+
+Short:
+GRMN      -0.052308
+AAPL       0.092075
+FFIV       0.120642
+NEM        0.125777
+EW        -0.012379
+Average    0.054761
+dtype: float64
+
+2013-07
+
+Monmentum portfolio and their past performance:
+Long:
+BBY     0.159131
+NFLX    0.145173
+GMCR    0.136294
+MU      0.124945
+VRTX    0.117696
+dtype: float64
+
+Short:
+TDC    -0.029289
+FB     -0.035114
+FFIV   -0.042773
+EW     -0.043541
+NEM    -0.045241
+dtype: float64
+
+Portfolio Returns:
+Long:
+BBY        0.032616
+NFLX       0.110754
+GMCR       0.017501
+MU        -0.049054
+VRTX       0.003606
+Average    0.023085
+dtype: float64
+
+Short:
+TDC       -0.247433
+FB        -0.511084
+FFIV      -0.279127
+EW        -0.094542
+NEM        0.019550
+Average   -0.222527
+dtype: float64
+
+2013-08
+
+Monmentum portfolio and their past performance:
+Long:
+BBY     0.138470
+VRTX    0.138469
+GME     0.125564
+MU      0.114190
+GMCR    0.101404
+dtype: float64
+
+Short:
+IRM    -0.029145
+EW     -0.036625
+FFIV   -0.037901
+ISRG   -0.041634
+NEM    -0.052535
+dtype: float64
+
+Portfolio Returns:
+Long:
+BBY        0.204494
+VRTX      -0.066155
+GME        0.005340
+MU         0.032424
+GMCR       0.084979
+Average    0.052217
+dtype: float64
+
+Short:
+IRM        0.075958
+EW         0.038692
+FFIV       0.045148
+ISRG       0.018575
+NEM       -0.071970
+Average    0.021281
+dtype: float64
+
+2013-09
+
+Monmentum portfolio and their past performance:
+Long:
+GME     0.161627
+BBY     0.096616
+GMCR    0.085446
+ACT     0.084508
+HAR     0.082617
+dtype: float64
+
+Short:
+IRM    -0.037132
+ISRG   -0.038017
+EXPE   -0.040251
+BRCM   -0.040280
+MOS    -0.048862
+dtype: float64
+
+Portfolio Returns:
+Long:
+GME        0.024815
+BBY        0.030626
+GMCR      -0.096054
+ACT        0.059588
+HAR        0.041680
+Average    0.012131
+dtype: float64
+
+Short:
+IRM       -0.056084
+ISRG       0.033154
+EXPE      -0.118257
+BRCM      -0.050437
+MOS       -0.067978
+Average   -0.051920
+dtype: float64
+
+2013-10
+
+Monmentum portfolio and their past performance:
+Long:
+GT      0.128247
+MU      0.121883
+FB      0.119942
+NFLX    0.109975
+ETFC    0.107639
+dtype: float64
+
+Short:
+HCP    -0.030419
+BRCM   -0.034360
+ISRG   -0.039867
+MOS    -0.041344
+IRM    -0.042379
+dtype: float64
+
+Portfolio Returns:
+Long:
+GT        -0.100629
+MU        -0.001704
+FB        -0.013288
+NFLX       0.014324
+ETFC       0.019643
+Average   -0.016331
+dtype: float64
+
+Short:
+HCP       -0.007732
+BRCM      -0.012098
+ISRG       0.000994
+MOS       -0.047965
+IRM        0.032246
+Average   -0.006911
+dtype: float64
+
+2013-11
+
+Monmentum portfolio and their past performance:
+Long:
+FB      0.155381
+GT      0.101716
+MU      0.100987
+BBY     0.092891
+ETFC    0.086007
+dtype: float64
+
+Short:
+MOS    -0.041110
+BRCM   -0.043677
+PHM    -0.043970
+DHI    -0.046869
+IRM    -0.049857
+dtype: float64
+
+Portfolio Returns:
+Long:
+FB        -0.054070
+GT         0.058964
+MU         0.209898
+BBY       -0.043093
+ETFC       0.056626
+Average    0.045665
+dtype: float64
+
+Short:
+MOS       -0.029718
+BRCM      -0.012100
+PHM       -0.054131
+DHI       -0.044300
+IRM       -0.073152
+Average   -0.042680
+dtype: float64
+
+2013-12
+
+Monmentum portfolio and their past performance:
+Long:
+FB      0.163186
+PBI     0.097982
+HAR     0.094752
+NFLX    0.094208
+BBY     0.089116
+dtype: float64
+
+Short:
+MOS    -0.029538
+VRTX   -0.031581
+AVP    -0.035835
+BRCM   -0.036132
+ISRG   -0.038652
+dtype: float64
+
+Portfolio Returns:
+Long:
+FB         0.162558
+PBI        0.002139
+HAR       -0.003850
+NFLX      -0.003023
+BBY       -0.010073
+Average    0.029550
+dtype: float64
+
+Short:
+MOS        0.004659
+VRTX      -0.066137
+AVP        0.038873
+BRCM      -0.074499
+ISRG      -0.012065
+Average   -0.021834
+dtype: float64
+
+2014-01
+
+Monmentum portfolio and their past performance:
+Long:
+FB      0.147259
+MU      0.108620
+PBI     0.097425
+NFLX    0.082568
+HAR     0.078071
+dtype: float64
+
+Short:
+VRTX   -0.029269
+NEM    -0.030201
+HCP    -0.030703
+AVP    -0.036986
+TDC    -0.038540
+dtype: float64
+
+Portfolio Returns:
+Long:
+FB         0.123743
+MU         0.053093
+PBI        0.043534
+NFLX       0.114547
+HAR        0.237282
+Average    0.114440
+dtype: float64
+
+Short:
+VRTX      -0.051470
+NEM        0.122704
+HCP       -0.072356
+AVP        0.162954
+TDC        0.105746
+Average    0.053516
+dtype: float64
+
+2014-02
+
+Monmentum portfolio and their past performance:
+Long:
+MU      0.108147
+LUV     0.091058
+DAL     0.087680
+WYNN    0.082351
+AVGO    0.080196
+dtype: float64
+
+Short:
+DO    -0.030163
+NEM   -0.034842
+AVP   -0.036828
+JBL   -0.040184
+TDC   -0.045648
+dtype: float64
+
+Portfolio Returns:
+Long:
+MU         0.073214
+LUV        0.091532
+DAL        0.111415
+WYNN       0.166052
+AVGO       0.159219
+Average    0.120286
+dtype: float64
+
+Short:
+DO        -0.002076
+NEM       -0.124167
+AVP       -0.057324
+JBL       -0.050785
+TDC       -0.130500
+Average   -0.072971
+dtype: float64
+
+2014-03
+
+Monmentum portfolio and their past performance:
+Long:
+HAR     0.097416
+LUV     0.089234
+WYNN    0.088341
+ALXN    0.087655
+MU      0.081761
+dtype: float64
+
+Short:
+ADT   -0.040279
+TDC   -0.042928
+AVP   -0.046011
+GME   -0.047362
+BBY   -0.057668
+dtype: float64
+
+Portfolio Returns:
+Long:
+HAR        0.037151
+LUV        0.075471
+WYNN      -0.064641
+ALXN      -0.099055
+MU        -0.001634
+Average   -0.010542
+dtype: float64
+
+Short:
+ADT        0.000656
+TDC       -0.067448
+AVP        0.021942
+GME       -0.154830
+BBY       -0.015432
+Average   -0.043023
+dtype: float64
+
+2014-04
+
+Monmentum portfolio and their past performance:
+Long:
+GMCR    0.104054
+MNK     0.090933
+HAR     0.089483
+LUV     0.081257
+URI     0.081015
+dtype: float64
+
+Short:
+DO    -0.038908
+GME   -0.043345
+ADT   -0.044391
+AVP   -0.047946
+BBY   -0.059173
+dtype: float64
+
+Portfolio Returns:
+Long:
+GMCR      -0.156318
+MNK        0.127816
+HAR       -0.007847
+LUV        0.016291
+URI       -0.028872
+Average   -0.009786
+dtype: float64
+
+Short:
+DO        -0.121187
+GME        0.077971
+ADT        0.006012
+AVP        0.067301
+BBY        0.013647
+Average    0.008749
+dtype: float64
+
+2014-05
+
+Monmentum portfolio and their past performance:
+Long:
+GMCR    0.096208
+TSN     0.073056
+AA      0.069354
+AVGO    0.068326
+NBR     0.067854
+dtype: float64
+
+Short:
+NE     -0.031850
+GME    -0.035093
+SPLS   -0.035754
+ADT    -0.047142
+BBY    -0.062798
+dtype: float64
+
+Portfolio Returns:
+Long:
+GMCR       0.232576
+TSN        0.025195
+AA         0.016219
+AVGO       0.128367
+NBR        0.042646
+Average    0.089001
+dtype: float64
+
+Short:
+NE        -0.026273
+GME        0.060582
+SPLS       0.116996
+ADT       -0.071500
+BBY       -0.055342
+Average    0.004893
+dtype: float64
+
+2014-06
+
+Monmentum portfolio and their past performance:
+Long:
+NBR     0.097806
+GMCR    0.081372
+EA      0.081259
+POM     0.080022
+MNK     0.077287
+dtype: float64
+
+Short:
+GME    -0.035405
+AMZN   -0.037697
+COH    -0.040804
+WFM    -0.047853
+BBY    -0.059784
+dtype: float64
+
+Portfolio Returns:
+Long:
+NBR        0.143158
+GMCR       0.104068
+EA         0.053530
+POM        0.005409
+MNK        0.002035
+Average    0.061640
+dtype: float64
+
+Short:
+GME       -0.107768
+AMZN      -0.076253
+COH        0.145166
+WFM       -0.031010
+BBY       -0.134479
+Average   -0.040869
+dtype: float64
+
+2014-07
+
+Monmentum portfolio and their past performance:
+Long:
+NFX     0.105366
+NBR     0.102985
+GMCR    0.086590
+EA      0.086333
+POM     0.080729
+dtype: float64
+
+Short:
+VRSN   -0.027444
+AMZN   -0.029669
+SPLS   -0.036253
+WFM    -0.040017
+COH    -0.044942
+dtype: float64
+
+Portfolio Returns:
+Long:
+NFX       -0.103896
+NBR       -0.102144
+GMCR      -0.045661
+EA        -0.074155
+POM       -0.019957
+Average   -0.069163
+dtype: float64
+
+Short:
+VRSN      -0.093076
+AMZN       0.076206
+SPLS      -0.039055
+WFM        0.024478
+COH        0.016919
+Average   -0.002905
+dtype: float64
+
+2014-08
+
+Monmentum portfolio and their past performance:
+Long:
+NFX    0.120562
+NBR    0.081689
+WMB    0.073603
+WIN    0.069796
+AA     0.067690
+dtype: float64
+
+Short:
+CRM    -0.020030
+FOSL   -0.021629
+SPLS   -0.023016
+COH    -0.043661
+WFM    -0.048307
+dtype: float64
+
+Portfolio Returns:
+Long:
+NFX        0.115688
+NBR        0.000373
+WMB        0.067327
+WIN       -0.034092
+AA         0.015844
+Average    0.033028
+dtype: float64
+
+Short:
+CRM       -0.119110
+FOSL      -0.043305
+SPLS      -0.104021
+COH       -0.090504
+WFM       -0.032488
+Average   -0.077886
+dtype: float64
+
+2014-09
+
+Monmentum portfolio and their past performance:
+Long:
+WIN    0.075546
+NFX    0.071094
+UHS    0.069262
+THC    0.067609
+WMB    0.067114
+dtype: float64
+
+Short:
+JEC    -0.028567
+GNW    -0.034567
+XLNX   -0.035621
+COH    -0.043036
+WFM    -0.046279
+dtype: float64
+
+Portfolio Returns:
+Long:
+WIN       -0.010206
+NFX       -0.175934
+UHS       -0.096372
+THC       -0.049704
+WMB       -0.067144
+Average   -0.079872
+dtype: float64
+
+Short:
+JEC        0.116934
+GNW        0.077356
+XLNX       0.004524
+COH        0.042473
+WFM        0.028666
+Average    0.053990
+dtype: float64
+
+2014-10
+
+Monmentum portfolio and their past performance:
+Long:
+VRTX    0.083722
+GILD    0.080141
+THC     0.077495
+LUV     0.071388
+AVGO    0.071034
+dtype: float64
+
+Short:
+RRC   -0.032229
+SWN   -0.034488
+GNW   -0.037425
+WFM   -0.038079
+COH   -0.039627
+dtype: float64
+
+Portfolio Returns:
+Long:
+VRTX       0.053427
+GILD       0.041576
+THC       -0.017665
+LUV        0.084793
+AVGO       0.009352
+Average    0.034296
+dtype: float64
+
+Short:
+RRC        0.010082
+SWN        0.066475
+GNW       -0.067073
+WFM       -0.055482
+COH        0.026671
+Average   -0.003866
+dtype: float64
+
+2014-11
+
+Monmentum portfolio and their past performance:
+Long:
+VRTX    0.094965
+SIAL    0.067148
+MNST    0.064465
+FDO     0.060223
+UA      0.058742
+dtype: float64
+
+Short:
+RRC   -0.043580
+GNW   -0.043662
+DO    -0.044481
+RIG   -0.044671
+SWN   -0.045169
+dtype: float64
+
+Portfolio Returns:
+Long:
+VRTX       0.034254
+SIAL       0.006866
+MNST       0.099476
+FDO        0.011076
+UA         0.057433
+Average    0.041821
+dtype: float64
+
+Short:
+RRC        0.021267
+GNW        0.343571
+DO         0.121544
+RIG        0.289019
+SWN        0.038224
+Average    0.162725
+dtype: float64
+
+2014-12
+
+Monmentum portfolio and their past performance:
+Long:
+MNST    0.088856
+EW      0.085465
+VRTX    0.083904
+LUV     0.072975
+YHOO    0.072416
+dtype: float64
+
+Short:
+AVP   -0.050684
+RIG   -0.061789
+DNR   -0.065729
+NBR   -0.066544
+GNW   -0.073208
+dtype: float64
+
+Portfolio Returns:
+Long:
+MNST      -0.028212
+EW        -0.012907
+VRTX       0.053231
+LUV        0.055577
+YHOO       0.001397
+Average    0.013817
+dtype: float64
+
+Short:
+AVP        0.031217
+RIG        0.093547
+DNR        0.011237
+NBR        0.027756
+GNW        0.082699
+Average    0.049291
+dtype: float64
+
+2015-01
+
+Monmentum portfolio and their past performance:
+Long:
+MNST    0.101433
+EW      0.083170
+SPLS    0.080878
+LUV     0.079710
+YHOO    0.072365
+dtype: float64
+
+Short:
+HAL   -0.073458
+GNW   -0.081916
+RIG   -0.092205
+DNR   -0.095101
+NBR   -0.096806
+dtype: float64
+
+Portfolio Returns:
+Long:
+MNST       0.086816
+EW        -0.017538
+SPLS      -0.026689
+LUV        0.043101
+YHOO      -0.109229
+Average   -0.004708
+dtype: float64
+
+Short:
+HAL       -0.051152
+GNW        0.119810
+RIG        0.046358
+DNR        0.021464
+NBR        0.038430
+Average    0.034982
+dtype: float64
+
+2015-02
+
+Monmentum portfolio and their past performance:
+Long:
+SPLS    0.087980
+MNST    0.080417
+MNK     0.071973
+LUV     0.069412
+AVGO    0.068025
+dtype: float64
+
+Short:
+FCX   -0.072419
+GNW   -0.074129
+RIG   -0.094626
+NBR   -0.096498
+DNR   -0.097146
+dtype: float64
+
+Portfolio Returns:
+Long:
+SPLS      -0.007001
+MNST       0.201446
+MNK        0.113172
+LUV       -0.006962
+AVGO       0.259715
+Average    0.112074
+dtype: float64
+
+Short:
+FCX       -0.210889
+GNW        0.012129
+RIG        0.046296
+NBR       -0.044130
+DNR       -0.078492
+Average   -0.055017
+dtype: float64
+
+2015-03
+
+Monmentum portfolio and their past performance:
+Long:
+HSP    0.096599
+EA     0.086849
+WFM    0.073314
+LB     0.068446
+TSO    0.067697
+dtype: float64
+
+Short:
+FCX   -0.066385
+GNW   -0.067142
+DNR   -0.075574
+NBR   -0.078721
+RIG   -0.080741
+dtype: float64
+
+Portfolio Returns:
+Long:
+HSP        0.005019
+EA        -0.002959
+WFM       -0.085379
+LB         0.007897
+TSO        0.006060
+Average   -0.013872
+dtype: float64
+
+Short:
+FCX        0.102224
+GNW        0.000000
+DNR        0.110843
+NBR       -0.127961
+RIG        0.106796
+Average    0.038381
+dtype: float64
+
+2015-04
+
+Monmentum portfolio and their past performance:
+Long:
+HSP     0.119425
+AVGO    0.102485
+EA      0.097526
+MNST    0.074923
+VMC     0.073758
+dtype: float64
+
+Short:
+FCX   -0.061200
+DNR   -0.064749
+ESV   -0.069207
+GNW   -0.072392
+RIG   -0.081103
+dtype: float64
+
+Portfolio Returns:
+Long:
+HSP       -0.009307
+AVGO      -0.022526
+EA         0.035789
+MNST       0.032785
+VMC        0.047660
+Average    0.016880
+dtype: float64
+
+Short:
+FCX       -0.250650
+DNR       -0.152554
+ESV       -0.282568
+GNW       -0.231924
+RIG       -0.279212
+Average   -0.239381
+dtype: float64
+
+2015-05
+
+Monmentum portfolio and their past performance:
+Long:
+KRFT    0.090296
+HSP     0.086862
+AVGO    0.066984
+EA      0.063168
+URBN    0.062139
+dtype: float64
+
+Short:
+WYNN   -0.047515
+SNDK   -0.049429
+CHK    -0.056778
+RIG    -0.059686
+ESV    -0.060829
+dtype: float64
+
+Portfolio Returns:
+Long:
+KRFT      -0.004842
+HSP        0.012945
+AVGO       0.193974
+EA         0.060003
+URBN       0.454950
+Average    0.143406
+dtype: float64
+
+Short:
+WYNN       0.699374
+SNDK       0.230074
+CHK        0.162031
+RIG       -4.331363
+ESV        0.150314
+Average   -0.617914
+dtype: float64
+
+             Long     Short   Average       SPY
+2001-01 -0.033378 -0.505840 -0.269609  0.070781
+2001-02  0.007332  0.267677  0.137504 -0.096643
+2001-03 -0.080883  0.277301  0.098209 -0.080999
+2001-04  0.055370 -0.380099 -0.162365  0.112522
+2001-05  0.146563 -0.069126  0.038718 -0.002519
+2001-06  0.291896  0.076653  0.184275 -0.017730
+2001-07  0.057071  0.008821  0.032946 -0.016273
+2001-08 -0.087669  0.276238  0.094284 -0.071165
+2001-09 -0.153553  0.185886  0.016166 -0.077224
+2001-10  0.370318 -0.511362 -0.070522  0.040664
+2001-11  0.067715 -0.268016 -0.100151  0.044789
+2001-12  0.015441 -0.119035 -0.051797  0.022558
+2002-01 -0.003498  0.122444  0.059473 -0.024929
+2002-02 -0.044589  0.050091  0.002751  0.009676
+2002-03  0.041220 -0.264917 -0.111848  0.010183
+2002-04 -0.013781  0.210122  0.098170 -0.047045
+2002-05  0.022877  0.138644  0.080760 -0.044056
+2002-06 -0.087790  0.262600  0.087405 -0.067073
+2002-07 -0.096925  0.242811  0.072943 -0.085025
+2002-08  0.051026  0.001712  0.026369 -0.005632
+2002-09  0.020190  0.106946  0.063568 -0.024646
+2002-10  0.176310 -0.272122 -0.047906  0.053080
+2002-11  0.050160 -0.535043 -0.242442  0.042761
+2002-12 -0.107734 -0.089161 -0.098447 -0.027754
+2003-01 -0.013030  0.060742  0.023856 -0.053146
+2003-02  0.013098 -0.000952  0.006073 -0.024817
+2003-03  0.127973 -0.116092  0.005940  0.027315
+2003-04  0.124670 -0.095582  0.014544  0.068108
+2003-05  0.170315 -0.388768 -0.109226  0.059303
+2003-06 -0.094308 -0.097265 -0.095787  0.015777
+...           ...       ...       ...       ...
+2012-12  0.092875 -0.051394  0.020741  0.039915
+2013-01  0.026694 -0.077841 -0.025574  0.035465
+2013-02  0.011478 -0.044760 -0.016641  0.005752
+2013-03  0.121823 -0.072166  0.024828  0.030465
+2013-04  0.020944  0.070330  0.045637  0.014290
+2013-05  0.142902 -0.058123  0.042390  0.038350
+2013-06  0.077352  0.054761  0.066057 -0.012998
+2013-07  0.023085 -0.222527 -0.099721  0.057635
+2013-08  0.052217  0.021281  0.036749 -0.036740
+2013-09  0.012131 -0.051920 -0.019895  0.035132
+2013-10 -0.016331 -0.006911 -0.011621  0.040569
+2013-11  0.045665 -0.042680  0.001492  0.024516
+2013-12  0.029550 -0.021834  0.003858  0.018740
+2014-01  0.114440  0.053516  0.083978 -0.047835
+2014-02  0.120286 -0.072971  0.023658  0.062066
+2014-03 -0.010542 -0.043023 -0.026782  0.022169
+2014-04 -0.009786  0.008749 -0.000519  0.000425
+2014-05  0.089001  0.004893  0.046947  0.024266
+2014-06  0.061640 -0.040869  0.010385  0.026304
+2014-07 -0.069163 -0.002905 -0.036034 -0.022991
+2014-08  0.033028 -0.077886 -0.022429  0.042130
+2014-09 -0.079872  0.053990 -0.012941 -0.026676
+2014-10  0.034296 -0.003866  0.015215  0.038179
+2014-11  0.041821  0.162725  0.102273  0.019775
+2014-12  0.013817  0.049291  0.031554  0.003906
+2015-01 -0.004708  0.034982  0.015137 -0.017086
+2015-02  0.112074 -0.055017  0.028529  0.049871
+2015-03 -0.013872  0.038381  0.012254 -0.025340
+2015-04  0.016880 -0.239381 -0.111251  0.024404
+2015-05  0.143406 -0.617914 -0.237254  0.004034
+
+[173 rows x 4 columns] 
+
+Annulized Mean Return:
+0.440019990667
+
+Volatility:
+0.329854689872
+
+Sharpe Ratio:
+1.33398130807
+
+S&P 500 annulized return:
+0.0674558613893
+
+Market volatility:
+0.167461111665
+
+Correlation with S&P 500:
+0.524414719866
+
+Alpha and beta with respect to S&P 500:
+alpha = 0.370340774064 ; beta = 1.03296014857
